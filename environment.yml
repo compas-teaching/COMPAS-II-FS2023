@@ -1,0 +1,14 @@
+name: fs2023
+channels:
+    - conda-forge
+
+dependencies:
+   - python=3.10
+   - pip
+   - git
+   - compas=1.17.5
+   - compas_fab=0.27
+   - compas_occ=0.7
+   - compas_cgal=0.5
+   - compas_rrc=1.1
+   - compas_slicer
