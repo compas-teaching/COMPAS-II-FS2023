@@ -12,3 +12,4 @@ dependencies:
    - compas_cgal=0.5
    - compas_rrc=1.1
    - compas_slicer
+   - black
