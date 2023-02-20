@@ -23,7 +23,7 @@ This PhD-level course introduces digital fabrication methods and tools building 
 
 Links:
 [Course info on ETHZ Catalog](https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2023S&ansicht=ALLE&lerneinheitId=168977&lang=en) |
-[Slack workspace](https://join.slack.com/t/compasii/shared_invite/zt-14cbtllxc-zxZRErT54F4xayA6keTb0g) |
+[Slack workspace](https://join.slack.com/t/compasii/shared_invite/zt-1pmf19rxu-a1K~2b9EuCqN9Tz49~szZg) |
 [COMPAS docs](https://compas.dev)
 
 ### Objectives
