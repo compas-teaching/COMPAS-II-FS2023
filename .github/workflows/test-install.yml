@@ -22,6 +22,7 @@ jobs:
           python: ${{ matrix.python }}
           use_conda: true
           invoke_lint: false
+          invoke_test: false
 
       - name: Verify imports
         run: |
