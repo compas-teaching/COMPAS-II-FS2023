@@ -4,7 +4,7 @@ Introduction to digital fabrication methods and the COMPAS ecosystem for digital
 Brief overview of geometry kernel and core data structures (network, mesh).
 Remote procedure calls.
 
-<!-- 👉 [Slides](lecture_01.pdf) -->
+👉 [Slides](https://docs.google.com/presentation/d/1rZTcQ2aGyNDFkTosbuDJElT-qs5vIHHhlXhYW9g0Aus/edit?usp=sharing)
 
 ## Examples
 
