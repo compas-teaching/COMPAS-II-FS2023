@@ -19,7 +19,7 @@ def draw(network, point, vector, s, step, last_node=None):
         if c == "A":
             point = point + vector * step
             a = network.add_node(x=point.x, y=point.y, z=point.z)
-            if last_node != None:
+            if last_node is not None:
                 network.add_edge(last_node, a)
             last_node = a
         elif c == "-":
