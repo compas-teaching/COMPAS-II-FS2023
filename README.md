@@ -26,6 +26,8 @@ Links:
 [Slack workspace](https://join.slack.com/t/compasii/shared_invite/zt-1pmf19rxu-a1K~2b9EuCqN9Tz49~szZg) |
 [COMPAS docs](https://compas.dev)
 
+![COMPAS II course](cover.jpg)
+
 ### Objectives
 
 1. Understand fundamentals of robotics, coordinate systems, transformations and orientation representations.
