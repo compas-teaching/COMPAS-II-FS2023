@@ -6,6 +6,7 @@ Brief intro to kinematic functions and path planning.
 
 👉 [Slides](https://docs.google.com/presentation/d/13c24LaDtWkAh4179EUwS1G1Alr129kVmmlPDaOHUO9g/edit?usp=sharing)
 📜 [Assignment 01](assignment_01/README.md)
+🐱‍🚀 [Miro board](https://miro.com/app/board/uXjVPjNuwhw=/?share_link_id=757340414318)
 
 ## Examples
 
