@@ -13,7 +13,6 @@ frame = Frame([1, 1, 1], [1, 1, 0], [0, 1, 1])
 
 # Create a Box with that frame
 box = Box(frame, 1, 1, 1)
-outTemp = box
 
 # Create a Projection (can be orthogonal, parallel or perspective)
 P  = Projection.from_plane_and_direction(Plane.worldXY(), Vector(math.sin(a)*math.cos(b), math.sin(a)*math.sin(b),math.cos(a)))
