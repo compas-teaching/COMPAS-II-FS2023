@@ -30,6 +30,6 @@ artist1 = Artist(box)
 artist2 = Artist(mesh_projected)
 
 # Draw and all to a list
-x =artist1.draw()
-y= artist2.draw_edges(color="#00ff00")
+x = artist1.draw()
+y = artist2.draw_edges(color="#00ff00")
 
