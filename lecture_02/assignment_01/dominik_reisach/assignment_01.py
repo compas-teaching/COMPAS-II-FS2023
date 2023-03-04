@@ -10,13 +10,13 @@ from compas.geometry import Point
 from compas.geometry import Vector
 
 # Define a Frame, which is not in the origin and a bit tilted to the world frame
-frame = Frame(Point(1,3,1), Vector(1,0,-1.0), Vector(-0.5,1,0))
+frame = Frame(Point(1, 3, 1), Vector(1, 0, -1.0), Vector(-0.5, 1, 0))
 
 # Create a Box with that frame
 box = Box(frame, 4, 4, 4)
 
 # Create a Projection (can be orthogonal, parallel or perspective)
-plane = Plane([0,0,0],[0,0,1])
+plane = Plane([0, 0, 0], [0, 0, 1])
 P = Projection.from_plane(plane)
 
 # Create a Mesh from the Box
