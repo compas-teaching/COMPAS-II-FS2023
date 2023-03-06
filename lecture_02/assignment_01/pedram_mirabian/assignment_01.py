@@ -33,4 +33,3 @@ artist2 = Artist(mesh_projected)
 # Draw and all to a list
 a1 = artist1.draw()
 a2 = artist2.draw_edges(color="#00ff00")
-    #Q: why do I need to assign a1 and a2 for the geometry to be visible in RH?
