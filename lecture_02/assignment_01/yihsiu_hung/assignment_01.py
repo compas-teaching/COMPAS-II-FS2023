@@ -8,7 +8,7 @@ from compas.geometry import Plane
 from compas.geometry import Projection
 
 # Define a Frame, which is not in the origin and a bit tilted to the world frame
-frame = Frame([0, 0, 0], [3, 0, 0], [0, 2, 0])
+frame = Frame([5, 5, 5], [3, 3, 3], [0, 2, -2])
 
 # Create a Box with that frame
 width, length, height = 1, 1, 1
