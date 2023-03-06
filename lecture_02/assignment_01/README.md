@@ -65,8 +65,8 @@ artist2.draw_edges(color="#00ff00")
     ![How to create a branch](../../.github/create-branch.png)
 
 3. Create a folder with your name and last name, eg. `david_bowie` (make sure it is inside the current assignment folder)
-6. Create a Python file called `assignment_01.py` inside the folder created in the previous step, and paste the starting point code.
-7. Solve the coding assignment and commit
+4. Create a Python file called `assignment_01.py` inside the folder created in the previous step, and paste the starting point code.
+5. Solve the coding assignment and commit
     <details><summary><small>(How do I commit?)</small></summary>
     <p>
 
@@ -75,11 +75,11 @@ artist2.draw_edges(color="#00ff00")
     </p>
     </details>
 
-8. Once you're ready to submit, push the changes clicking the update/sync button again:
+6. Once you're ready to submit, push the changes clicking the update/sync button again:
 
     ![Synchronize your repository](../../.github/push.png)
 
-9. And create a pull request (<small>[What's a pull request?](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)</small>)
+7. And create a pull request (<small>[What's a pull request?](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)</small>)
 
     1. Open your browser and go to your fork
     2. Create the pull request clicking `Compare & pull request` and follow the instructions
