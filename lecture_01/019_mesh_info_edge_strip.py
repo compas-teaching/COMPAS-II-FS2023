@@ -10,14 +10,13 @@ mesh = Mesh.from_meshgrid(dx=10, nx=10)
 edge = random.choice(list(mesh.edges()))
 strip = mesh.edge_strip(edge)
 
-vertex_color = {
-    strip[0][0]: (1.0, 0.7, 0.7),
-    strip[0][1]: (1.0, 0.0, 0.0),
-}
-
 edge_width = {}
+vertex_color = {}
+
 for u, v in strip:
     edge_width[u, v] = 5.0
+    vertex_color[u] = (1.0, 0.7, 0.7)
+    vertex_color[v] = (1.0, 0.0, 0.0)
 
 meshartist = plotter.add(mesh, sizepolicy="relative", edgewidth=edge_width, vertexcolor=vertex_color, vertexsize=10)
 
