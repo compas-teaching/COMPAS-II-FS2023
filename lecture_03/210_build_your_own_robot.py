@@ -36,11 +36,12 @@ origin = Frame((length, 0, 0), (1, 0, 0), (0, 1, 0))
 model.add_joint("joint2", Joint.CONTINUOUS, link1, link2, origin, axis)
 
 # Create a configuration object matching the number of joints in your model
-# configuration = ....
+configuration = model.zero_configuration()
+configuration.joint_values = [3.14, 1.57]
 
 # Update the model using the artist
 artist = Artist(model)
-# artist.update ...
+artist.update(configuration)
 
 # Render everything
 artist.draw_visual()
