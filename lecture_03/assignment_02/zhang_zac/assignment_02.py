@@ -74,5 +74,6 @@ artist.update(configuration)
 
 # Render everything
 artist.draw_visual()
-artist.redraw
+artist.redraw()
 outTemp = artist.draw()
+
