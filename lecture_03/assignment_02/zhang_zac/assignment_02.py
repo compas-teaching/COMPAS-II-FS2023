@@ -64,9 +64,9 @@ model.add_joint("joint4", Joint.CONTINUOUS, link3, link4, origin4, axis4)
 
 # Create a configuration object matching the number of joints in your model
 configuration = model.zero_configuration()
-# configuration.joint_values = [0.06, 0.87, -7.60, 0.75]
+configuration.joint_values = [0.06, 0.87, -7.60, 0.75]
 # Alternatively, using 'x', 'y' and 'z' in Grasshopper as params for:
-configuration.joint_values = [x, y, z, math.pi / 2 - y]
+# configuration.joint_values = [x, y, z, math.pi / 2 - y]
 
 # Update the model using the artist
 artist = Artist(model)
@@ -75,5 +75,5 @@ artist.update(configuration)
 # Render everything
 artist.draw_visual()
 artist.redraw()
-outTemp = artist.draw()
+# outTemp = artist.draw()
 
