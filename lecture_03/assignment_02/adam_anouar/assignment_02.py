@@ -1,3 +1,10 @@
+"""
+    Assignment_02 : Adam Anouar
+    Drawing the number 2 with a RobotModel
+
+"""
+
+
 from compas.artists import Artist
 from compas.datastructures import Mesh
 from compas.geometry import Circle
@@ -55,7 +62,7 @@ model.add_joint("joint4", Joint.CONTINUOUS, link3, link4, origin3, axis)
 
 
 # Create a configuration object matching the number of joints in your model
-#Creating a configuration to draw the number 2
+# Creating a configuration to draw the number 2
 configuration = model.zero_configuration()
 configuration.joint_values = [0, -math.radians(90), math.radians(-45), math.radians(135)]
 
@@ -63,6 +70,6 @@ configuration.joint_values = [0, -math.radians(90), math.radians(-45), math.radi
 artist = Artist(model)
 artist.update(configuration)
 
-# Render everything
+# Rendering the result
 artist.draw_visual()
 artist.redraw()
