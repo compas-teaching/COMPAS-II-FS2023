@@ -14,7 +14,7 @@ frame = Frame([1, 2, 3], [1, 0, 0], [0, 1, 1])
 box = Box(frame, 1, 1, 1)
 
 # Create a Projection (can be orthogonal, parallel or perspective)
-P = Projection.from_plane_and_direction(Plane.worldXY(), [-1,-1,-1])
+P = Projection.from_plane_and_direction(Plane.worldXY(), [-1, -1, -1])
 
 # Create a Mesh from the Box
 mesh = Mesh.from_shape(box)
