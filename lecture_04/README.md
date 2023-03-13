@@ -6,6 +6,7 @@ Planning scene operations. End effectors and discrete build elements.
 Introduction to ROS, topics, services, actions. Basic interprocess communication via ROS nodes.
 
 👉 [Slides](https://docs.google.com/presentation/d/1yL4ZTd4Xg-LmVAMjIti9pSgF-qUkO6B839qIuSsXe_A/edit?usp=sharing)
+📜 [Assignment 03](assignment_03/README.md)
 
 ## Examples
 
