@@ -12,19 +12,13 @@ from compas.geometry import Translation
 from compas.robots import Configuration
 from compas.robots import Joint
 from compas.robots import RobotModel
-import math
 
 
 # create cylinder in yz plane
 radius, length = 0.3, 5
 cylinder = Cylinder(Circle(Plane([0, 0, 0], [1, 0, 0]), radius), length)
-
 cylinder.transform(Translation.from_vector([length / 2.0, 0, 0]))
 sphere = Sphere(Point(0,0,0), sphere_radius)
-# sphere.transform(Translation.from_vector([rad / 2.0, 0, 0]))
-
-config_list = [1.22, 5.43, 5.57, 5.41]
-
 
 # create robot model
 model = RobotModel("robot", links=[], joints=[])
@@ -71,10 +65,8 @@ configuration.joint_values = [x, y, z, u]
 artist = Artist(model)
 artist.update(configuration)
 
-
 #grasshopper visulization
 a = artist.draw_visual()
-
 
 # # Render everything
 # artist.draw_visual()
