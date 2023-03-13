@@ -24,7 +24,7 @@ P = Projection.from_plane_and_point(plane, center_of_projection)
 mesh = Mesh.from_shape(box)
 
 # Apply the Projection onto the mesh
-mesh_projected = Mesh.transformed(mesh,P)
+mesh_projected = mesh.transformed(P)
 
 # Create artists
 artist1 = Artist(box)
