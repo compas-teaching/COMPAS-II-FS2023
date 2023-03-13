@@ -7,13 +7,13 @@ from compas.geometry import Projection
 
 # Define a Frame, which is not in the origin and a bit tilted to the world frame
 point_1 = (1, 3, 5)
-xAxis_1 = (0.916893,0,-0.399133)
-yAxis_1 = (-0.04001,0.994963,-0.091911)
+xaxis_1 = (0.916893, 0, -0.399133)
+yaxis_1 = (-0.04001, 0.994963, -0.091911)
 
-frame = Frame(point_1, xAxis_1, yAxis_1)
+frame = Frame(point_1, xaxis_1, yaxis_1)
 
 # Create a Box with that frame
-box = Box(frame,1,1.62,2.62)
+box = Box(frame, 1, 1.62, 2.62)
 
 # Create a Projection (can be orthogonal, parallel or perspective)
 plane = Plane.worldXY()
