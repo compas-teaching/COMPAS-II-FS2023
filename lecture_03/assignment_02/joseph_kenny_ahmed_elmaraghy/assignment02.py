@@ -15,7 +15,7 @@ from compas.robots import RobotModel
 
 
 # create cylinder in yz plane
-radius, length = 0.3, 5
+radius, length = 0.5, 5
 cylinder = Cylinder(Circle(Plane([0, 0, 0], [1, 0, 0]), radius), length)
 cylinder.transform(Translation.from_vector([length / 2.0, 0, 0]))
 sphere = Sphere(Point(0,0,0), sphere_radius)
