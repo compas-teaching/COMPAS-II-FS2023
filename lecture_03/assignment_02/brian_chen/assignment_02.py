@@ -14,6 +14,7 @@ from compas.geometry import Box
 import Rhino.Geometry as rg
 import copy
 from math import radians
+import ghpythonlib.treehelpers as th
 
 # create cylinder in yz plane
 radius, length = 0.3, 5
@@ -70,6 +71,13 @@ a = artist.draw_visual()
 b = artist_box.draw()
 artist.redraw()
 
-trans = rg.Transform.Rotation(radians(50), rg.Point3d(0,0,0))
-leg_01 = copy.deepcopy(a)
-[r.Transform(trans) for r in leg_01]
+legs = []
+i = 0
+while i <= 400:
+    i += 50
+    print(i)
+    trans = rg.Transform.Rotation(radians(i), rg.Point3d(0,0,0))
+    leg = copy.deepcopy(a)
+    [x.Transform(trans) for x in leg]
+    legs.append(leg)
+legs = th.list_to_tree(legs)
