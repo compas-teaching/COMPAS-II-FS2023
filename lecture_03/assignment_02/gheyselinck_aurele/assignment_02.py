@@ -13,13 +13,12 @@ from compas.robots import RobotModel
 # create cylinder in yz plane
 radius, length = 0.3, 5
 cylinder = Cylinder(Circle(Plane([0, 0, 0], [1, 0, 0]), radius), length)
-cylinder.transform(Translation.from_vector([length / 2.0, 0, 0]))
+cylinder = cylinder.transformed(Translation.from_vector([length / 2.0, 0, 0]))
 
 # create a box for the third joint
-box = Box(Frame.worldYZ(), 0.5, 0.5, 20.0)
-box.transform(Translation.from_vector([10, 0, 0]))
-#box_artist = Artist(box)
-#box_artist.draw()
+box_side, box_length = 0.5, 22
+box = Box(Frame.worldYZ(), box_side, box_side, box_length)
+box.transform(Translation.from_vector([box_length / 2.0, 0, 0]))
 
 # create robot model
 model = RobotModel("robot", links=[], joints=[])
@@ -44,12 +43,14 @@ model.add_joint("joint1", Joint.CONTINUOUS, link0, link1, origin1, axis)
 origin2 = Frame((length, 0, 0), (1, 0, 0), (0, 1, 0))
 model.add_joint("joint2", Joint.CONTINUOUS, link1, link2, origin2, axis)
 
-origin3 = Frame((length+20, 0, 0), (1, 0, 0), (0, 1, 0))
-model.add_joint("joint3", Joint.CONTINUOUS, link2, link3, origin3, (1, 0, 0))
+origin3 = Frame((box_length, 0, 0), (1, 0, 0), (0, 1, 0))
+model.add_joint("joint3", Joint.CONTINUOUS, link2, link3, origin3, (axis))
 
 # Create a configuration object matching the number of joints in your model
 configuration = model.zero_configuration()
-configuration.joint_values = [1,1,1]
+configuration.joint_values = [1.57, 1.57, 1.57]
+# configuration.joint_values = [0, 0, 0]
+#configuration.joint_values = [0, 0, 1.57]
 
 # Update the model using the artist
 artist = Artist(model)
@@ -57,4 +58,4 @@ artist.update(configuration)
 
 # Render everything
 artist.draw_visual()
-artist.redraw
+artist.redraw()
