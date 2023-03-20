@@ -36,16 +36,13 @@ P = Projection.from_plane(Plane.worldXY())
 mesh = Mesh.from_shape(box)
 
 # Apply the Projection onto the mesh
-mesh_projected = mesh.copy()
-Mesh.transform(mesh_projected,P)
+mesh_projected = mesh.transformed(P)
 
 # Create artists
 artist1 = Artist(box)
 artist2 = Artist(mesh)
 artist3 = Artist(mesh_projected)
 # Draw and all to a list
-artist1.draw()
-artist2.draw_edges(color="#00ff00")
 
 a= mesh
 b= mesh_projected
