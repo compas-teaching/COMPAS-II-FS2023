@@ -10,7 +10,7 @@ Instructions.
 
 Multi controller & location coordination.
 
-👉 [Slides](lecture_08.pdf)
+👉 [Slides](https://docs.google.com/presentation/d/1dLaqzAVe4KJIF0qUSySq08IEOWcyTXgnXLCuTqLFaGk/edit?usp=sharing)
 🤖 [GoFa station PackNGo file](https://nextcloud.ethz.ch/s/ngy7Hz2AK6dLPrR)
 📜 [Quiz assignment](https://forms.gle/yaVm9z7XSexmf6pZ9)
 
