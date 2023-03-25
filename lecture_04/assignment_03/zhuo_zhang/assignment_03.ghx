@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>159</X>
-                  <Y>-50</Y>
+                  <X>672</X>
+                  <Y>26</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.246093169</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.289521366</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -63,8 +63,33 @@
         </chunk>
         <chunk name="RcpLayout">
           <items count="1">
-            <item name="GroupCount" type_name="gh_int32" type_code="3">0</item>
+            <item name="GroupCount" type_name="gh_int32" type_code="3">1</item>
           </items>
+          <chunks count="1">
+            <chunk name="Group" index="0">
+              <items count="4">
+                <item name="Bounds" type_name="gh_drawing_rectangle" type_code="34">
+                  <X>5</X>
+                  <Y>5</Y>
+                  <W>284</W>
+                  <H>63</H>
+                </item>
+                <item name="Collapsed" type_name="gh_bool" type_code="1">false</item>
+                <item name="Colour" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;160;160;160</ARGB>
+                </item>
+                <item name="Name" type_name="gh_string" type_code="10">New Group</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Items">
+                  <items count="2">
+                    <item name="ItemCount" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Target" index="0" type_name="gh_guid" type_code="9">e4b338fe-125d-4929-92e1-4e17c08f9b3b</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
         </chunk>
         <chunk name="GHALibraries">
           <items count="1">
@@ -95,9 +120,9 @@
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">61</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">60</item>
           </items>
-          <chunks count="61">
+          <chunks count="60">
             <chunk name="Object" index="0">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
@@ -223,14 +248,14 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1240</X>
-                          <Y>1145</Y>
+                          <X>1310</X>
+                          <Y>592</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1265.412</X>
-                          <Y>1157.002</Y>
+                          <X>1335.471</X>
+                          <Y>604.3107</Y>
                         </item>
                       </items>
                     </chunk>
@@ -248,20 +273,20 @@
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1090.739</Y>
+                      <X>116.7664</X>
+                      <Y>538.0473</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>272.0458</X>
-                      <Y>1090.739</Y>
+                      <X>342.1052</X>
+                      <Y>538.0473</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>272.0458</X>
-                      <Y>1110.838</Y>
+                      <X>342.1052</X>
+                      <Y>558.1459</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1110.838</Y>
+                      <X>116.7664</X>
+                      <Y>558.1459</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -276,14 +301,14 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>41.70692</X>
-                          <Y>1085.739</Y>
+                          <X>111.7664</X>
+                          <Y>533.0473</Y>
                           <W>235.3389</W>
                           <H>30.09863</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>46.70692</X>
-                          <Y>1090.739</Y>
+                          <X>116.7664</X>
+                          <Y>538.0473</Y>
                         </item>
                       </items>
                     </chunk>
@@ -298,8 +323,9 @@
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="7">
+                  <items count="8">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">aacb02be-ffde-4997-b910-3a5670a6e5b1</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Target planes</item>
@@ -311,14 +337,14 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1240</X>
-                          <Y>1487</Y>
+                          <X>1310</X>
+                          <Y>934</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1265.041</X>
-                          <Y>1499.451</Y>
+                          <X>1335.1</X>
+                          <Y>946.7591</Y>
                         </item>
                       </items>
                     </chunk>
@@ -368,8 +394,9 @@
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="7">
+                  <items count="8">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">d385349b-7e03-4362-b9d0-eacd34e2562b</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Pickup plane</item>
@@ -381,14 +408,14 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1241</X>
-                          <Y>1321</Y>
+                          <X>1311</X>
+                          <Y>768</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1266.929</X>
-                          <Y>1333.682</Y>
+                          <X>1336.988</X>
+                          <Y>780.9903</Y>
                         </item>
                       </items>
                     </chunk>
@@ -441,20 +468,20 @@
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1254.469</Y>
+                      <X>116.7664</X>
+                      <Y>701.7772</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>269.3387</X>
-                      <Y>1254.469</Y>
+                      <X>339.3982</X>
+                      <Y>701.7772</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>269.3387</X>
-                      <Y>1274.568</Y>
+                      <X>339.3982</X>
+                      <Y>721.8758</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1274.568</Y>
+                      <X>116.7664</X>
+                      <Y>721.8758</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -469,14 +496,14 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>41.70692</X>
-                          <Y>1249.469</Y>
+                          <X>111.7664</X>
+                          <Y>696.7772</Y>
                           <W>232.6318</W>
                           <H>30.09863</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>46.70692</X>
-                          <Y>1254.469</Y>
+                          <X>116.7664</X>
+                          <Y>701.7772</Y>
                         </item>
                       </items>
                     </chunk>
@@ -494,20 +521,20 @@
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1442.185</Y>
+                      <X>116.7664</X>
+                      <Y>889.4933</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>263.9891</X>
-                      <Y>1442.185</Y>
+                      <X>334.0486</X>
+                      <Y>889.4933</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>263.9891</X>
-                      <Y>1462.413</Y>
+                      <X>334.0486</X>
+                      <Y>909.7209</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1462.413</Y>
+                      <X>116.7664</X>
+                      <Y>909.7209</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -522,14 +549,14 @@
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>41.70692</X>
-                          <Y>1437.185</Y>
+                          <X>111.7664</X>
+                          <Y>884.4933</Y>
                           <W>227.2822</W>
                           <H>30.22754</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>46.70692</X>
-                          <Y>1442.185</Y>
+                          <X>116.7664</X>
+                          <Y>889.4933</Y>
                         </item>
                       </items>
                     </chunk>
@@ -688,14 +715,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>2362</X>
-                          <Y>1111</Y>
+                          <X>2432</X>
+                          <Y>558</Y>
                           <W>247</W>
                           <H>204</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>2503</X>
-                          <Y>1213</Y>
+                          <X>2573</X>
+                          <Y>660</Y>
                         </item>
                       </items>
                     </chunk>
@@ -741,14 +768,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1113</Y>
+                                  <X>2434</X>
+                                  <Y>560</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1123</Y>
+                                  <X>2497.5</X>
+                                  <Y>570</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -771,14 +798,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1133</Y>
+                                  <X>2434</X>
+                                  <Y>580</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1143</Y>
+                                  <X>2497.5</X>
+                                  <Y>590</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -802,14 +829,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1153</Y>
+                                  <X>2434</X>
+                                  <Y>600</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1163</Y>
+                                  <X>2497.5</X>
+                                  <Y>610</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -832,14 +859,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1173</Y>
+                                  <X>2434</X>
+                                  <Y>620</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1183</Y>
+                                  <X>2497.5</X>
+                                  <Y>630</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -862,14 +889,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1193</Y>
+                                  <X>2434</X>
+                                  <Y>640</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1203</Y>
+                                  <X>2497.5</X>
+                                  <Y>650</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -892,14 +919,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1213</Y>
+                                  <X>2434</X>
+                                  <Y>660</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1223</Y>
+                                  <X>2497.5</X>
+                                  <Y>670</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -922,14 +949,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1233</Y>
+                                  <X>2434</X>
+                                  <Y>680</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1243</Y>
+                                  <X>2497.5</X>
+                                  <Y>690</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -952,14 +979,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1253</Y>
+                                  <X>2434</X>
+                                  <Y>700</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1263</Y>
+                                  <X>2497.5</X>
+                                  <Y>710</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -982,14 +1009,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1273</Y>
+                                  <X>2434</X>
+                                  <Y>720</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1283</Y>
+                                  <X>2497.5</X>
+                                  <Y>730</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1012,14 +1039,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2364</X>
-                                  <Y>1293</Y>
+                                  <X>2434</X>
+                                  <Y>740</Y>
                                   <W>124</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2427.5</X>
-                                  <Y>1303</Y>
+                                  <X>2497.5</X>
+                                  <Y>750</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1038,14 +1065,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1113</Y>
+                                  <X>2588</X>
+                                  <Y>560</Y>
                                   <W>89</W>
                                   <H>28</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1127.286</Y>
+                                  <X>2632.5</X>
+                                  <Y>574.2857</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1064,14 +1091,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1141</Y>
+                                  <X>2588</X>
+                                  <Y>588</Y>
                                   <W>89</W>
                                   <H>29</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1155.857</Y>
+                                  <X>2632.5</X>
+                                  <Y>602.8571</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1090,14 +1117,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1170</Y>
+                                  <X>2588</X>
+                                  <Y>617</Y>
                                   <W>89</W>
                                   <H>28</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1184.429</Y>
+                                  <X>2632.5</X>
+                                  <Y>631.4286</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1116,14 +1143,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1198</Y>
+                                  <X>2588</X>
+                                  <Y>645</Y>
                                   <W>89</W>
                                   <H>29</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1213</Y>
+                                  <X>2632.5</X>
+                                  <Y>660</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1142,14 +1169,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1227</Y>
+                                  <X>2588</X>
+                                  <Y>674</Y>
                                   <W>89</W>
                                   <H>28</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1241.572</Y>
+                                  <X>2632.5</X>
+                                  <Y>688.5714</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1168,14 +1195,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1255</Y>
+                                  <X>2588</X>
+                                  <Y>702</Y>
                                   <W>89</W>
                                   <H>29</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1270.143</Y>
+                                  <X>2632.5</X>
+                                  <Y>717.1429</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1194,14 +1221,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2518</X>
-                                  <Y>1284</Y>
+                                  <X>2588</X>
+                                  <Y>731</Y>
                                   <W>89</W>
                                   <H>29</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2562.5</X>
-                                  <Y>1298.714</Y>
+                                  <X>2632.5</X>
+                                  <Y>745.7143</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1223,20 +1250,20 @@ COMPAS FAB v0.27.0</item>
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1624.152</Y>
+                      <X>116.7664</X>
+                      <Y>1071.46</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>317.5712</X>
-                      <Y>1624.152</Y>
+                      <X>387.6306</X>
+                      <Y>1071.46</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>317.5712</X>
-                      <Y>1644.25</Y>
+                      <X>387.6306</X>
+                      <Y>1091.559</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1644.25</Y>
+                      <X>116.7664</X>
+                      <Y>1091.559</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -1251,14 +1278,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>41.70692</X>
-                          <Y>1619.152</Y>
+                          <X>111.7664</X>
+                          <Y>1066.46</Y>
                           <W>280.8643</W>
                           <H>30.09863</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>46.70692</X>
-                          <Y>1624.152</Y>
+                          <X>116.7664</X>
+                          <Y>1071.46</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1273,8 +1300,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="7">
+                  <items count="8">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">02bc89eb-6961-419b-a5c7-ecf1d7beb296</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Pickup config</item>
@@ -1286,14 +1314,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1249</X>
-                          <Y>1688</Y>
+                          <X>1319</X>
+                          <Y>1135</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1274.877</X>
-                          <Y>1700.274</Y>
+                          <X>1344.936</X>
+                          <Y>1147.582</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1311,20 +1339,20 @@ COMPAS FAB v0.27.0</item>
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>73.59002</X>
-                      <Y>1648.275</Y>
+                      <X>143.6495</X>
+                      <Y>1095.584</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>238.8635</X>
-                      <Y>1648.275</Y>
+                      <X>308.9229</X>
+                      <Y>1095.584</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>238.8635</X>
-                      <Y>1662.986</Y>
+                      <X>308.9229</X>
+                      <Y>1110.295</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>73.59002</X>
-                      <Y>1662.986</Y>
+                      <X>143.6495</X>
+                      <Y>1110.295</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -1339,14 +1367,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>68.59002</X>
-                          <Y>1643.275</Y>
+                          <X>138.6495</X>
+                          <Y>1090.584</Y>
                           <W>175.2734</W>
-                          <H>24.71082</H>
+                          <H>24.71094</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>73.59002</X>
-                          <Y>1648.275</Y>
+                          <X>143.6495</X>
+                          <Y>1095.584</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1421,8 +1449,8 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="1">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1591</X>
-                          <Y>1143</Y>
+                          <X>1661</X>
+                          <Y>590</Y>
                           <W>134</W>
                           <H>22</H>
                         </item>
@@ -1449,14 +1477,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>2047</X>
-                          <Y>1142</Y>
+                          <X>2117</X>
+                          <Y>589</Y>
                           <W>75</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>2078</X>
-                          <Y>1174</Y>
+                          <X>2148</X>
+                          <Y>621</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1484,14 +1512,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2049</X>
-                                  <Y>1144</Y>
+                                  <X>2119</X>
+                                  <Y>591</Y>
                                   <W>14</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2057.5</X>
-                                  <Y>1154</Y>
+                                  <X>2127.5</X>
+                                  <Y>601</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1533,14 +1561,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2049</X>
-                                  <Y>1164</Y>
+                                  <X>2119</X>
+                                  <Y>611</Y>
                                   <W>14</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2057.5</X>
-                                  <Y>1174</Y>
+                                  <X>2127.5</X>
+                                  <Y>621</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1562,14 +1590,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2049</X>
-                                  <Y>1184</Y>
+                                  <X>2119</X>
+                                  <Y>631</Y>
                                   <W>14</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2057.5</X>
-                                  <Y>1194</Y>
+                                  <X>2127.5</X>
+                                  <Y>641</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1590,14 +1618,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2093</X>
-                                  <Y>1144</Y>
+                                  <X>2163</X>
+                                  <Y>591</Y>
                                   <W>27</W>
                                   <H>60</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2106.5</X>
-                                  <Y>1174</Y>
+                                  <X>2176.5</X>
+                                  <Y>621</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -1653,20 +1681,20 @@ COMPAS FAB v0.27.0</item>
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>1582.769</X>
-                      <Y>1093.377</Y>
+                      <X>1652.828</X>
+                      <Y>540.6851</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>1707.131</X>
-                      <Y>1093.377</Y>
+                      <X>1777.191</X>
+                      <Y>540.6851</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>1707.131</X>
-                      <Y>1108.921</Y>
+                      <X>1777.191</X>
+                      <Y>556.2291</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>1582.769</X>
-                      <Y>1108.921</Y>
+                      <X>1652.828</X>
+                      <Y>556.2291</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -1681,14 +1709,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1577.769</X>
-                          <Y>1088.377</Y>
+                          <X>1647.828</X>
+                          <Y>535.6851</Y>
                           <W>134.3623</W>
                           <H>25.54395</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1582.769</X>
-                          <Y>1093.377</Y>
+                          <X>1652.828</X>
+                          <Y>540.6851</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1703,8 +1731,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
+                  <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">b96209a7-93e4-4212-b096-c83e82b4da7b</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Pickup plane</item>
@@ -1717,14 +1746,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>69</X>
-                          <Y>1713</Y>
+                          <X>139</X>
+                          <Y>1160</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>94.11225</X>
-                          <Y>1725.305</Y>
+                          <X>164.1717</X>
+                          <Y>1172.613</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1739,8 +1768,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
+                  <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">98209ace-c305-4683-b351-d9b9daf31e36</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Robot</item>
@@ -1753,14 +1783,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>70</X>
-                          <Y>1682</Y>
+                          <X>140</X>
+                          <Y>1129</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>95.8785</X>
-                          <Y>1694.487</Y>
+                          <X>165.938</X>
+                          <Y>1141.795</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1778,20 +1808,20 @@ COMPAS FAB v0.27.0</item>
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1834.227</Y>
+                      <X>116.7664</X>
+                      <Y>1281.535</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>379.9403</X>
-                      <Y>1834.227</Y>
+                      <X>449.9998</X>
+                      <Y>1281.535</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>379.9403</X>
-                      <Y>1854.401</Y>
+                      <X>449.9998</X>
+                      <Y>1301.709</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>46.70692</X>
-                      <Y>1854.401</Y>
+                      <X>116.7664</X>
+                      <Y>1301.709</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -1806,14 +1836,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>41.70692</X>
-                          <Y>1829.227</Y>
+                          <X>111.7664</X>
+                          <Y>1276.535</Y>
                           <W>343.2334</W>
                           <H>30.17395</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>46.70692</X>
-                          <Y>1834.227</Y>
+                          <X>116.7664</X>
+                          <Y>1281.535</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1831,20 +1861,20 @@ COMPAS FAB v0.27.0</item>
                   <items count="13">
                     <item name="Bold" type_name="gh_bool" type_code="1">false</item>
                     <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>75.11641</X>
-                      <Y>1861.113</Y>
+                      <X>145.1759</X>
+                      <Y>1308.421</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>314.8351</X>
-                      <Y>1861.113</Y>
+                      <X>384.8946</X>
+                      <Y>1308.421</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>314.8351</X>
-                      <Y>1875.823</Y>
+                      <X>384.8946</X>
+                      <Y>1323.132</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>75.11641</X>
-                      <Y>1875.823</Y>
+                      <X>145.1759</X>
+                      <Y>1323.132</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
@@ -1859,14 +1889,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>70.11641</X>
-                          <Y>1856.113</Y>
+                          <X>140.1759</X>
+                          <Y>1303.421</Y>
                           <W>249.7187</W>
                           <H>24.71094</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>75.11641</X>
-                          <Y>1861.113</Y>
+                          <X>145.1759</X>
+                          <Y>1308.421</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1881,8 +1911,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
+                  <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">55db7485-e593-4762-a166-64303d976c7a</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Target planes</item>
@@ -1895,14 +1926,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>84</X>
-                          <Y>1969</Y>
+                          <X>154</X>
+                          <Y>1416</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>109.1617</X>
-                          <Y>1981.602</Y>
+                          <X>179.2211</X>
+                          <Y>1428.911</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1917,8 +1948,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
+                  <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">538c02c6-6b3b-4712-a784-dda0bc63f847</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Robot</item>
@@ -1931,14 +1963,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>84</X>
-                          <Y>1906</Y>
+                          <X>154</X>
+                          <Y>1353</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>109.0406</X>
-                          <Y>1918.472</Y>
+                          <X>179.1001</X>
+                          <Y>1365.78</Y>
                         </item>
                       </items>
                     </chunk>
@@ -1953,8 +1985,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
+                  <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">c666c109-2ccb-4c50-90cd-00130af76eaa</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Pickup config</item>
@@ -1967,14 +2000,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>84</X>
-                          <Y>1940</Y>
+                          <X>154</X>
+                          <Y>1387</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>109.694</X>
-                          <Y>1952.446</Y>
+                          <X>179.7534</X>
+                          <Y>1399.755</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2001,14 +2034,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1591</X>
-                          <Y>1178</Y>
+                          <X>1661</X>
+                          <Y>625</Y>
                           <W>160</W>
                           <H>20</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1591.409</X>
-                          <Y>1178.576</Y>
+                          <X>1661.469</X>
+                          <Y>625.8847</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2045,14 +2078,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>2164</X>
-                          <Y>1162</Y>
+                          <X>2234</X>
+                          <Y>609</Y>
                           <W>63</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>2197</X>
-                          <Y>1194</Y>
+                          <X>2267</X>
+                          <Y>641</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2081,14 +2114,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2166</X>
-                                  <Y>1164</Y>
+                                  <X>2236</X>
+                                  <Y>611</Y>
                                   <W>16</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2175.5</X>
-                                  <Y>1174</Y>
+                                  <X>2245.5</X>
+                                  <Y>621</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2108,14 +2141,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2166</X>
-                                  <Y>1184</Y>
+                                  <X>2236</X>
+                                  <Y>631</Y>
                                   <W>16</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2175.5</X>
-                                  <Y>1194</Y>
+                                  <X>2245.5</X>
+                                  <Y>641</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2154,14 +2187,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2166</X>
-                                  <Y>1204</Y>
+                                  <X>2236</X>
+                                  <Y>651</Y>
                                   <W>16</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2175.5</X>
-                                  <Y>1214</Y>
+                                  <X>2245.5</X>
+                                  <Y>661</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2201,14 +2234,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2212</X>
-                                  <Y>1164</Y>
+                                  <X>2282</X>
+                                  <Y>611</Y>
                                   <W>13</W>
                                   <H>60</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2218.5</X>
-                                  <Y>1194</Y>
+                                  <X>2288.5</X>
+                                  <Y>641</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2227,8 +2260,9 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="7">
+                  <items count="8">
                     <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">bcf27a28-24e5-4d31-8438-444d7fe511cb</item>
                     <item name="Name" type_name="gh_string" type_code="10">Data</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Trajectory</item>
@@ -2240,14 +2274,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1249</X>
-                          <Y>1970</Y>
+                          <X>1319</X>
+                          <Y>1418</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1274.394</X>
-                          <Y>1982.897</Y>
+                          <X>1344.453</X>
+                          <Y>1430.206</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2288,14 +2322,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1707</X>
-                          <Y>1287</Y>
+                          <X>1777</X>
+                          <Y>734</Y>
                           <W>126</W>
                           <H>28</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1774</X>
-                          <Y>1301</Y>
+                          <X>1844</X>
+                          <Y>748</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2325,14 +2359,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1709</X>
-                                  <Y>1289</Y>
+                                  <X>1779</X>
+                                  <Y>736</Y>
                                   <W>50</W>
                                   <H>24</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1735.5</X>
-                                  <Y>1301</Y>
+                                  <X>1805.5</X>
+                                  <Y>748</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2351,14 +2385,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1789</X>
-                                  <Y>1289</Y>
+                                  <X>1859</X>
+                                  <Y>736</Y>
                                   <W>42</W>
                                   <H>24</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1810</X>
-                                  <Y>1301</Y>
+                                  <X>1880</X>
+                                  <Y>748</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2391,14 +2425,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1596</X>
-                          <Y>1271</Y>
+                          <X>1666</X>
+                          <Y>719</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1621.352</X>
-                          <Y>1283.742</Y>
+                          <X>1691.411</X>
+                          <Y>731.0505</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2427,14 +2461,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1596</X>
-                          <Y>1295</Y>
+                          <X>1666</X>
+                          <Y>742</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1621.626</X>
-                          <Y>1307.072</Y>
+                          <X>1691.685</X>
+                          <Y>754.3802</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2463,14 +2497,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1596</X>
-                          <Y>1247</Y>
+                          <X>1666</X>
+                          <Y>695</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1621.626</X>
-                          <Y>1259.896</Y>
+                          <X>1691.685</X>
+                          <Y>707.2045</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2540,8 +2574,8 @@ for the robot to reach it as well.</item>
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-530</X>
-                          <Y>1457</Y>
+                          <X>-460</X>
+                          <Y>905</Y>
                           <W>523</W>
                           <H>96</H>
                         </item>
@@ -2549,8 +2583,8 @@ for the robot to reach it as well.</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-530</X>
-                          <Y>1457.99</Y>
+                          <X>-459.9406</X>
+                          <Y>905.2988</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2606,8 +2640,8 @@ results of the IK solution for this pickup-plane.</item>
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-536</X>
-                          <Y>1266</Y>
+                          <X>-466</X>
+                          <Y>713</Y>
                           <W>529</W>
                           <H>96</H>
                         </item>
@@ -2615,8 +2649,8 @@ results of the IK solution for this pickup-plane.</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-535.2353</X>
-                          <Y>1266.461</Y>
+                          <X>-465.1758</X>
+                          <Y>713.7693</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2669,8 +2703,8 @@ Make sure ROS/MoveIt is running before you start (ie. "Compose up").</item>
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-536</X>
-                          <Y>1097</Y>
+                          <X>-466</X>
+                          <Y>544</Y>
                           <W>529</W>
                           <H>96</H>
                         </item>
@@ -2678,8 +2712,8 @@ Make sure ROS/MoveIt is running before you start (ie. "Compose up").</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-535.2353</X>
-                          <Y>1097.461</Y>
+                          <X>-465.1758</X>
+                          <Y>544.7693</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2734,8 +2768,8 @@ code it in a GHPython component.</item>
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-530</X>
-                          <Y>1653</Y>
+                          <X>-460</X>
+                          <Y>1101</Y>
                           <W>523</W>
                           <H>96</H>
                         </item>
@@ -2743,8 +2777,8 @@ code it in a GHPython component.</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-529.5882</X>
-                          <Y>1653.873</Y>
+                          <X>-459.5287</X>
+                          <Y>1101.181</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2797,8 +2831,8 @@ First create a constraint from the selected plane, then use the plan free-space 
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>-530</X>
-                          <Y>1915</Y>
+                          <X>-460</X>
+                          <Y>1362</Y>
                           <W>523</W>
                           <H>96</H>
                         </item>
@@ -2806,8 +2840,8 @@ First create a constraint from the selected plane, then use the plan free-space 
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>-529.353</X>
-                          <Y>1915.637</Y>
+                          <X>-459.2936</X>
+                          <Y>1362.946</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2898,14 +2932,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>350</X>
-                          <Y>1097</Y>
+                          <X>420</X>
+                          <Y>544</Y>
                           <W>147</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>410</X>
-                          <Y>1129</Y>
+                          <X>480</X>
+                          <Y>576</Y>
                         </item>
                       </items>
                     </chunk>
@@ -2937,14 +2971,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>352</X>
-                                  <Y>1099</Y>
+                                  <X>422</X>
+                                  <Y>546</Y>
                                   <W>43</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>375</X>
-                                  <Y>1109</Y>
+                                  <X>445</X>
+                                  <Y>556</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2967,14 +3001,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>352</X>
-                                  <Y>1119</Y>
+                                  <X>422</X>
+                                  <Y>566</Y>
                                   <W>43</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>375</X>
-                                  <Y>1129</Y>
+                                  <X>445</X>
+                                  <Y>576</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -2998,14 +3032,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>352</X>
-                                  <Y>1139</Y>
+                                  <X>422</X>
+                                  <Y>586</Y>
                                   <W>43</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>375</X>
-                                  <Y>1149</Y>
+                                  <X>445</X>
+                                  <Y>596</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3024,14 +3058,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>425</X>
-                                  <Y>1099</Y>
+                                  <X>495</X>
+                                  <Y>546</Y>
                                   <W>70</W>
                                   <H>30</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>460</X>
-                                  <Y>1114</Y>
+                                  <X>530</X>
+                                  <Y>561</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3050,14 +3084,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>425</X>
-                                  <Y>1129</Y>
+                                  <X>495</X>
+                                  <Y>576</Y>
                                   <W>70</W>
                                   <H>30</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>460</X>
-                                  <Y>1144</Y>
+                                  <X>530</X>
+                                  <Y>591</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3089,8 +3123,8 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="1">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>190</X>
-                          <Y>1140</Y>
+                          <X>260</X>
+                          <Y>587</Y>
                           <W>140</W>
                           <H>22</H>
                         </item>
@@ -3155,14 +3189,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>525</X>
-                          <Y>1104</Y>
+                          <X>595</X>
+                          <Y>551</Y>
                           <W>120</W>
                           <H>44</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>593</X>
-                          <Y>1126</Y>
+                          <X>663</X>
+                          <Y>573</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3193,14 +3227,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>527</X>
-                                  <Y>1106</Y>
+                                  <X>597</X>
+                                  <Y>553</Y>
                                   <W>51</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>554</X>
-                                  <Y>1116</Y>
+                                  <X>624</X>
+                                  <Y>563</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3224,14 +3258,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>527</X>
-                                  <Y>1126</Y>
+                                  <X>597</X>
+                                  <Y>573</Y>
                                   <W>51</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>554</X>
-                                  <Y>1136</Y>
+                                  <X>624</X>
+                                  <Y>583</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3250,14 +3284,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>608</X>
-                                  <Y>1106</Y>
+                                  <X>678</X>
+                                  <Y>553</Y>
                                   <W>35</W>
                                   <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>625.5</X>
-                                  <Y>1126</Y>
+                                  <X>695.5</X>
+                                  <Y>573</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3338,14 +3372,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>694</X>
-                          <Y>1104</Y>
+                          <X>764</X>
+                          <Y>551</Y>
                           <W>143</W>
                           <H>104</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>785</X>
-                          <Y>1156</Y>
+                          <X>855</X>
+                          <Y>603</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3380,14 +3414,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>696</X>
-                                  <Y>1106</Y>
+                                  <X>766</X>
+                                  <Y>553</Y>
                                   <W>74</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>734.5</X>
-                                  <Y>1116</Y>
+                                  <X>804.5</X>
+                                  <Y>563</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3411,14 +3445,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>696</X>
-                                  <Y>1126</Y>
+                                  <X>766</X>
+                                  <Y>573</Y>
                                   <W>74</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>734.5</X>
-                                  <Y>1136</Y>
+                                  <X>804.5</X>
+                                  <Y>583</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3442,14 +3476,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>696</X>
-                                  <Y>1146</Y>
+                                  <X>766</X>
+                                  <Y>593</Y>
                                   <W>74</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>734.5</X>
-                                  <Y>1156</Y>
+                                  <X>804.5</X>
+                                  <Y>603</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3473,14 +3507,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>696</X>
-                                  <Y>1166</Y>
+                                  <X>766</X>
+                                  <Y>613</Y>
                                   <W>74</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>734.5</X>
-                                  <Y>1176</Y>
+                                  <X>804.5</X>
+                                  <Y>623</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3503,14 +3537,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>696</X>
-                                  <Y>1186</Y>
+                                  <X>766</X>
+                                  <Y>633</Y>
                                   <W>74</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>734.5</X>
-                                  <Y>1196</Y>
+                                  <X>804.5</X>
+                                  <Y>643</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3529,14 +3563,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>800</X>
-                                  <Y>1106</Y>
+                                  <X>870</X>
+                                  <Y>553</Y>
                                   <W>35</W>
                                   <H>100</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>817.5</X>
-                                  <Y>1156</Y>
+                                  <X>887.5</X>
+                                  <Y>603</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -3568,14 +3602,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>615</X>
-                          <Y>1145</Y>
+                          <X>686</X>
+                          <Y>592</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>640.9825</X>
-                          <Y>1157.052</Y>
+                          <X>711.042</X>
+                          <Y>604.3607</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3626,14 +3660,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>550</X>
-                          <Y>1165</Y>
+                          <X>620</X>
+                          <Y>612</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>575.8174</X>
-                          <Y>1177.13</Y>
+                          <X>645.8769</X>
+                          <Y>624.4385</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3688,14 +3722,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>615</X>
-                          <Y>1165</Y>
+                          <X>685</X>
+                          <Y>612</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>640.3638</X>
-                          <Y>1177.61</Y>
+                          <X>710.4232</X>
+                          <Y>624.9186</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3723,14 +3757,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>41</X>
-                          <Y>1294</Y>
+                          <X>112</X>
+                          <Y>741</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>66.94443</X>
-                          <Y>1306.685</Y>
+                          <X>137.0039</X>
+                          <Y>753.9932</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3873,14 +3907,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>113</X>
-                          <Y>1294</Y>
+                          <X>183</X>
+                          <Y>741</Y>
                           <W>50</W>
                           <H>24</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>138.3818</X>
-                          <Y>1306.014</Y>
+                          <X>208.4413</X>
+                          <Y>753.3222</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3907,14 +3941,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>176</X>
-                          <Y>1290</Y>
+                          <X>246</X>
+                          <Y>737</Y>
                           <W>144</W>
                           <H>104</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>226</X>
-                          <Y>1342</Y>
+                          <X>296</X>
+                          <Y>789</Y>
                         </item>
                       </items>
                     </chunk>
@@ -3932,14 +3966,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>178</X>
-                              <Y>1292</Y>
+                              <X>248</X>
+                              <Y>739</Y>
                               <W>33</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>196</X>
-                              <Y>1302</Y>
+                              <X>266</X>
+                              <Y>749</Y>
                             </item>
                           </items>
                         </chunk>
@@ -3958,14 +3992,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>178</X>
-                              <Y>1312</Y>
+                              <X>248</X>
+                              <Y>759</Y>
                               <W>33</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>196</X>
-                              <Y>1322</Y>
+                              <X>266</X>
+                              <Y>769</Y>
                             </item>
                           </items>
                         </chunk>
@@ -3984,14 +4018,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>178</X>
-                              <Y>1332</Y>
+                              <X>248</X>
+                              <Y>779</Y>
                               <W>33</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>196</X>
-                              <Y>1342</Y>
+                              <X>266</X>
+                              <Y>789</Y>
                             </item>
                           </items>
                         </chunk>
@@ -4030,14 +4064,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>178</X>
-                              <Y>1352</Y>
+                              <X>248</X>
+                              <Y>799</Y>
                               <W>33</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>196</X>
-                              <Y>1362</Y>
+                              <X>266</X>
+                              <Y>809</Y>
                             </item>
                           </items>
                         </chunk>
@@ -4076,14 +4110,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>178</X>
-                              <Y>1372</Y>
+                              <X>248</X>
+                              <Y>819</Y>
                               <W>33</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>196</X>
-                              <Y>1382</Y>
+                              <X>266</X>
+                              <Y>829</Y>
                             </item>
                           </items>
                         </chunk>
@@ -4122,14 +4156,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>241</X>
-                              <Y>1292</Y>
+                              <X>311</X>
+                              <Y>739</Y>
                               <W>77</W>
                               <H>50</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>279.5</X>
-                              <Y>1317</Y>
+                              <X>349.5</X>
+                              <Y>764</Y>
                             </item>
                           </items>
                         </chunk>
@@ -4148,14 +4182,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>241</X>
-                              <Y>1342</Y>
+                              <X>311</X>
+                              <Y>789</Y>
                               <W>77</W>
                               <H>50</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>279.5</X>
-                              <Y>1367</Y>
+                              <X>349.5</X>
+                              <Y>814</Y>
                             </item>
                           </items>
                         </chunk>
@@ -4173,7 +4207,7 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="12">
+                  <items count="13">
                     <item name="CodeInput" type_name="gh_string" type_code="10">"""
 Calculate the robot's inverse kinematic for a given plane.
 
@@ -4193,6 +4227,7 @@ class InverseKinematics(component):
 </item>
                     <item name="Description" type_name="gh_string" type_code="10">Calculate the robot's inverse kinematic for a given plane.
 COMPAS FAB v0.27.0</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
@@ -4210,14 +4245,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>320</X>
-                          <Y>1657</Y>
+                          <X>390</X>
+                          <Y>1104</Y>
                           <W>197</W>
                           <H>84</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>430</X>
-                          <Y>1699</Y>
+                          <X>500</X>
+                          <Y>1146</Y>
                         </item>
                       </items>
                     </chunk>
@@ -4251,14 +4286,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1659</Y>
+                                  <X>392</X>
+                                  <Y>1106</Y>
                                   <W>93</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>370</X>
-                                  <Y>1669</Y>
+                                  <X>440</X>
+                                  <Y>1116</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4282,14 +4317,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1679</Y>
+                                  <X>392</X>
+                                  <Y>1126</Y>
                                   <W>93</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>370</X>
-                                  <Y>1689</Y>
+                                  <X>440</X>
+                                  <Y>1136</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4313,14 +4348,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1699</Y>
+                                  <X>392</X>
+                                  <Y>1146</Y>
                                   <W>93</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>370</X>
-                                  <Y>1709</Y>
+                                  <X>440</X>
+                                  <Y>1156</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4343,14 +4378,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1719</Y>
+                                  <X>392</X>
+                                  <Y>1166</Y>
                                   <W>93</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>370</X>
-                                  <Y>1729</Y>
+                                  <X>440</X>
+                                  <Y>1176</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4369,14 +4404,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>445</X>
-                                  <Y>1659</Y>
+                                  <X>515</X>
+                                  <Y>1106</Y>
                                   <W>70</W>
                                   <H>80</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>480</X>
-                                  <Y>1699</Y>
+                                  <X>550</X>
+                                  <Y>1146</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4396,7 +4431,7 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="12">
+                  <items count="13">
                     <item name="CodeInput" type_name="gh_string" type_code="10">"""
 Get a zero configuration for a robot.
 
@@ -4415,6 +4450,7 @@ class ConfigZero(component):
 </item>
                     <item name="Description" type_name="gh_string" type_code="10">Get a zero configuration for a robot.
 COMPAS FAB v0.27.0</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
@@ -4432,14 +4468,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>190</X>
-                          <Y>1687</Y>
+                          <X>260</X>
+                          <Y>1134</Y>
                           <W>105</W>
                           <H>44</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>241</X>
-                          <Y>1709</Y>
+                          <X>311</X>
+                          <Y>1156</Y>
                         </item>
                       </items>
                     </chunk>
@@ -4471,14 +4507,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>192</X>
-                                  <Y>1689</Y>
+                                  <X>262</X>
+                                  <Y>1136</Y>
                                   <W>34</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>210.5</X>
-                                  <Y>1699</Y>
+                                  <X>280.5</X>
+                                  <Y>1146</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4501,14 +4537,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>192</X>
-                                  <Y>1709</Y>
+                                  <X>262</X>
+                                  <Y>1156</Y>
                                   <W>34</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>210.5</X>
-                                  <Y>1719</Y>
+                                  <X>280.5</X>
+                                  <Y>1166</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4527,14 +4563,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>256</X>
-                                  <Y>1689</Y>
+                                  <X>326</X>
+                                  <Y>1136</Y>
                                   <W>37</W>
                                   <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>274.5</X>
-                                  <Y>1709</Y>
+                                  <X>344.5</X>
+                                  <Y>1156</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4554,7 +4590,7 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="12">
+                  <items count="13">
                     <item name="CodeInput" type_name="gh_string" type_code="10">"""
 Calculate a cartesian motion path (linear in tool space).
 
@@ -4592,6 +4628,7 @@ class PlanCartesianMotion(component):
 </item>
                     <item name="Description" type_name="gh_string" type_code="10">Calculate a cartesian motion path (linear in tool space).
 COMPAS FAB v0.27.0</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
@@ -4609,14 +4646,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>320</X>
-                          <Y>1899</Y>
+                          <X>390</X>
+                          <Y>1346</Y>
                           <W>216</W>
                           <H>164</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>466</X>
-                          <Y>1981</Y>
+                          <X>536</X>
+                          <Y>1428</Y>
                         </item>
                       </items>
                     </chunk>
@@ -4654,14 +4691,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1901</Y>
+                                  <X>392</X>
+                                  <Y>1348</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>1911</Y>
+                                  <X>458</X>
+                                  <Y>1358</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4686,14 +4723,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1921</Y>
+                                  <X>392</X>
+                                  <Y>1368</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>1931</Y>
+                                  <X>458</X>
+                                  <Y>1378</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4717,14 +4754,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1941</Y>
+                                  <X>392</X>
+                                  <Y>1388</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>1951</Y>
+                                  <X>458</X>
+                                  <Y>1398</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4747,14 +4784,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1961</Y>
+                                  <X>392</X>
+                                  <Y>1408</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>1971</Y>
+                                  <X>458</X>
+                                  <Y>1418</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4778,14 +4815,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>1981</Y>
+                                  <X>392</X>
+                                  <Y>1428</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>1991</Y>
+                                  <X>458</X>
+                                  <Y>1438</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4809,14 +4846,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>2001</Y>
+                                  <X>392</X>
+                                  <Y>1448</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>2011</Y>
+                                  <X>458</X>
+                                  <Y>1458</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4839,14 +4876,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>2021</Y>
+                                  <X>392</X>
+                                  <Y>1468</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>2031</Y>
+                                  <X>458</X>
+                                  <Y>1478</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4870,14 +4907,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>322</X>
-                                  <Y>2041</Y>
+                                  <X>392</X>
+                                  <Y>1488</Y>
                                   <W>129</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>388</X>
-                                  <Y>2051</Y>
+                                  <X>458</X>
+                                  <Y>1498</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4896,14 +4933,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>481</X>
-                                  <Y>1901</Y>
+                                  <X>551</X>
+                                  <Y>1348</Y>
                                   <W>53</W>
                                   <H>160</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>507.5</X>
-                                  <Y>1981</Y>
+                                  <X>577.5</X>
+                                  <Y>1428</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -4936,8 +4973,8 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="1">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>189</X>
-                          <Y>2040</Y>
+                          <X>259</X>
+                          <Y>1487</Y>
                           <W>101</W>
                           <H>22</H>
                         </item>
@@ -4965,14 +5002,14 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>407</X>
-                          <Y>1305</Y>
+                          <X>477</X>
+                          <Y>752</Y>
                           <W>99</W>
                           <H>44</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>455</X>
-                          <Y>1327</Y>
+                          <X>525</X>
+                          <Y>774</Y>
                         </item>
                       </items>
                     </chunk>
@@ -4991,14 +5028,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>409</X>
-                              <Y>1307</Y>
+                              <X>479</X>
+                              <Y>754</Y>
                               <W>31</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>426</X>
-                              <Y>1317</Y>
+                              <X>496</X>
+                              <Y>764</Y>
                             </item>
                           </items>
                         </chunk>
@@ -5018,14 +5055,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>409</X>
-                              <Y>1327</Y>
+                              <X>479</X>
+                              <Y>774</Y>
                               <W>31</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>426</X>
-                              <Y>1337</Y>
+                              <X>496</X>
+                              <Y>784</Y>
                             </item>
                           </items>
                         </chunk>
@@ -5045,14 +5082,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>470</X>
-                              <Y>1307</Y>
+                              <X>540</X>
+                              <Y>754</Y>
                               <W>34</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>487</X>
-                              <Y>1317</Y>
+                              <X>557</X>
+                              <Y>764</Y>
                             </item>
                           </items>
                         </chunk>
@@ -5072,14 +5109,14 @@ COMPAS FAB v0.27.0</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>470</X>
-                              <Y>1327</Y>
+                              <X>540</X>
+                              <Y>774</Y>
                               <W>34</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>487</X>
-                              <Y>1337</Y>
+                              <X>557</X>
+                              <Y>784</Y>
                             </item>
                           </items>
                         </chunk>
@@ -5110,8 +5147,8 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>343</X>
-                          <Y>1328</Y>
+                          <X>413</X>
+                          <Y>775</Y>
                           <W>50</W>
                           <H>20</H>
                         </item>
@@ -5119,8 +5156,8 @@ COMPAS FAB v0.27.0</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>343.2829</X>
-                          <Y>1328.001</Y>
+                          <X>413.3423</X>
+                          <Y>775.3095</Y>
                         </item>
                       </items>
                     </chunk>
@@ -5157,9 +5194,58 @@ COMPAS FAB v0.27.0</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="9">
+                  <items count="10">
+                    <item name="CodeInput" type_name="gh_string" type_code="10">from compas.artists import Artist
+from compas.geometry import Frame
+from compas_fab.backends import RosClient
+from compas_rhino.conversions import plane_to_compas_frame, RhinoMesh
+from compas_fab.robots import Tool
+
+with RosClient("localhost") as client:
+    robot = client.load_robot(load_geometry=True)
+    group = robot.main_group_name
+
+    # Attach tool
+    mesh = RhinoMesh.from_geometry(mesh).to_compas()
+    tool = Tool(mesh, plane_to_compas_frame(tcf_plane), mesh)
+    robot.attach_tool(tool)
+
+    # Start configuration
+    start_configuration = robot.inverse_kinematics(plane_to_compas_frame(pick_up_plane))
+
+    # Target planes
+    frames = []
+    for f in target_planes:
+        frames.append(plane_to_compas_frame(f))
+
+    # Cartesian motion
+    trajectory = robot.plan_cartesian_motion(
+        frames,
+        start_configuration
+    )
+
+    # print(robot.info())
+    print("Fraction = " + str(trajectory.fraction))
+
+
+
+    # print("Computed cartesian path with %d configurations, " % len(trajectory.points))
+    # print("following %d%% of requested trajectory." % (trajectory.fraction * 100))
+    # print("Executing this path at full speed would take approx. %.3f seconds." % trajectory.time_from_start)
+
+    # artist = Artist(robot.model, layer="Robot")
+
+    # for tp in trajectory.points:
+    #     config = robot.zero_configuration()
+    #     config.joint_values = tp.joint_values
+    #     artist.update(config)
+    #     artist.clear_layer()
+    #     artist.draw_visual()
+    #     artist.redraw()
+    #     time.sleep(0.001)
+</item>
                     <item name="Description" type_name="gh_string" type_code="10">GhPython provides a Python script component</item>
-                    <item name="HideInput" type_name="gh_bool" type_code="1">false</item>
+                    <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">false</item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">419fba58-8160-4174-9a20-cf9f22616963</item>
@@ -5172,84 +5258,35 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>705</X>
-                          <Y>793</Y>
+                          <X>560</X>
+                          <Y>359</Y>
                           <W>160</W>
-                          <H>104</H>
+                          <H>84</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>795</X>
-                          <Y>845</Y>
+                          <X>650</X>
+                          <Y>401</Y>
                         </item>
                       </items>
                     </chunk>
                     <chunk name="ParameterData">
-                      <items count="9">
-                        <item name="InputCount" type_name="gh_int32" type_code="3">5</item>
-                        <item name="InputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+                      <items count="8">
+                        <item name="InputCount" type_name="gh_int32" type_code="3">4</item>
+                        <item name="InputId" index="0" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
                         <item name="InputId" index="1" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
                         <item name="InputId" index="2" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
                         <item name="InputId" index="3" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
-                        <item name="InputId" index="4" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
                         <item name="OutputCount" type_name="gh_int32" type_code="3">2</item>
                         <item name="OutputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
                         <item name="OutputId" index="1" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
                       </items>
-                      <chunks count="7">
+                      <chunks count="6">
                         <chunk name="InputParam" index="0">
-                          <items count="7">
-                            <item name="Description" type_name="gh_string" type_code="10">Script input code.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c73e2401-22a2-4d78-b25b-733202f28710</item>
-                            <item name="Name" type_name="gh_string" type_code="10">code</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">code</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">dde03d64-f2ad-42bb-a357-4f29d5a849ec</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>707</X>
-                                  <Y>795</Y>
-                                  <W>73</W>
-                                  <H>20</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>745</X>
-                                  <Y>805</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="PersistentData">
-                              <items count="1">
-                                <item name="Count" type_name="gh_int32" type_code="3">1</item>
-                              </items>
-                              <chunks count="1">
-                                <chunk name="Branch" index="0">
-                                  <items count="2">
-                                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
-                                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
-                                  </items>
-                                  <chunks count="1">
-                                    <chunk name="Item" index="0">
-                                      <items count="2">
-                                        <item name="null_string" type_name="gh_bool" type_code="1">false</item>
-                                        <item name="string" type_name="gh_string" type_code="10"></item>
-                                      </items>
-                                    </chunk>
-                                  </chunks>
-                                </chunk>
-                              </chunks>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="InputParam" index="1">
                           <items count="11">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Script input pick_up_plane.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">f46aa01c-a5ba-4f80-b1f4-50c135453b0a</item>
-                            <item name="Name" type_name="gh_string" type_code="10">pick-up_plane</item>
+                            <item name="Name" type_name="gh_string" type_code="10">pick_up_plane</item>
                             <item name="NickName" type_name="gh_string" type_code="10">pick_up_plane</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
@@ -5262,20 +5299,20 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>707</X>
-                                  <Y>815</Y>
+                                  <X>562</X>
+                                  <Y>361</Y>
                                   <W>73</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>745</X>
-                                  <Y>825</Y>
+                                  <X>600</X>
+                                  <Y>371</Y>
                                 </item>
                               </items>
                             </chunk>
                           </chunks>
                         </chunk>
-                        <chunk name="InputParam" index="2">
+                        <chunk name="InputParam" index="1">
                           <items count="12">
                             <item name="Access" type_name="gh_int32" type_code="3">1</item>
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
@@ -5294,25 +5331,25 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>707</X>
-                                  <Y>835</Y>
+                                  <X>562</X>
+                                  <Y>381</Y>
                                   <W>73</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>745</X>
-                                  <Y>845</Y>
+                                  <X>600</X>
+                                  <Y>391</Y>
                                 </item>
                               </items>
                             </chunk>
                           </chunks>
                         </chunk>
-                        <chunk name="InputParam" index="3">
+                        <chunk name="InputParam" index="2">
                           <items count="11">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Script input mesh.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">61eb14c2-8b2e-4033-a02e-47a060b2b4a1</item>
-                            <item name="Name" type_name="gh_string" type_code="10">x</item>
+                            <item name="Name" type_name="gh_string" type_code="10">mesh</item>
                             <item name="NickName" type_name="gh_string" type_code="10">mesh</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
@@ -5325,25 +5362,25 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>707</X>
-                                  <Y>855</Y>
+                                  <X>562</X>
+                                  <Y>401</Y>
                                   <W>73</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>745</X>
-                                  <Y>865</Y>
+                                  <X>600</X>
+                                  <Y>411</Y>
                                 </item>
                               </items>
                             </chunk>
                           </chunks>
                         </chunk>
-                        <chunk name="InputParam" index="4">
+                        <chunk name="InputParam" index="3">
                           <items count="11">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">Script input tcf_plane.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">2aec336d-1a26-4e18-bd17-99e251a096d7</item>
-                            <item name="Name" type_name="gh_string" type_code="10">y</item>
+                            <item name="Name" type_name="gh_string" type_code="10">tcf_plane</item>
                             <item name="NickName" type_name="gh_string" type_code="10">tcf_plane</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
@@ -5356,14 +5393,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>707</X>
-                                  <Y>875</Y>
+                                  <X>562</X>
+                                  <Y>421</Y>
                                   <W>73</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>745</X>
-                                  <Y>885</Y>
+                                  <X>600</X>
+                                  <Y>431</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -5382,14 +5419,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>810</X>
-                                  <Y>795</Y>
+                                  <X>665</X>
+                                  <Y>361</Y>
                                   <W>53</W>
-                                  <H>50</H>
+                                  <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>836.5</X>
-                                  <Y>820</Y>
+                                  <X>691.5</X>
+                                  <Y>381</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -5399,7 +5436,7 @@ COMPAS FAB v0.27.0</item>
                           <items count="6">
                             <item name="Description" type_name="gh_string" type_code="10">Script output trajectory.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">d8cb1b9d-6a38-4555-a43e-34524a5de8a5</item>
-                            <item name="Name" type_name="gh_string" type_code="10">outTemp</item>
+                            <item name="Name" type_name="gh_string" type_code="10">trajectory</item>
                             <item name="NickName" type_name="gh_string" type_code="10">trajectory</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
@@ -5408,14 +5445,14 @@ COMPAS FAB v0.27.0</item>
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>810</X>
-                                  <Y>845</Y>
+                                  <X>665</X>
+                                  <Y>401</Y>
                                   <W>53</W>
-                                  <H>50</H>
+                                  <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>836.5</X>
-                                  <Y>870</Y>
+                                  <X>691.5</X>
+                                  <Y>421</Y>
                                 </item>
                               </items>
                             </chunk>
@@ -5429,291 +5466,6 @@ COMPAS FAB v0.27.0</item>
             </chunk>
             <chunk name="Object" index="57">
               <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">6587fcbf-e3cf-480a-b2f5-641794474194</item>
-                <item name="Name" type_name="gh_string" type_code="10">Read File</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="5">
-                    <item name="Description" type_name="gh_string" type_code="10">Read the contents of a file</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">f4e6afb9-771b-495a-9603-70e3f068d29a</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Read File</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Read File</item>
-                    <item name="PerLineParse" type_name="gh_bool" type_code="1">false</item>
-                  </items>
-                  <chunks count="4">
-                    <chunk name="UserCode">
-                      <items count="11">
-                        <item name="Line" index="0" type_name="gh_string" type_code="10">action = GH_LineParserAction.Include</item>
-                        <item name="Line" index="1" type_name="gh_string" type_code="10">Return line</item>
-                        <item name="Line" index="2" type_name="gh_string" type_code="10"></item>
-                        <item name="Line" index="3" type_name="gh_string" type_code="10">'Parse the line and return some data that represents the line.</item>
-                        <item name="Line" index="4" type_name="gh_string" type_code="10">'If the line cannot be parsed, you can return Nothing and</item>
-                        <item name="Line" index="5" type_name="gh_string" type_code="10">'assign a different action.</item>
-                        <item name="Line" index="6" type_name="gh_string" type_code="10">'The default implementation is to just return the line itself.</item>
-                        <item name="Line" index="7" type_name="gh_string" type_code="10">'If you return types that implement IGH_Goo, this component</item>
-                        <item name="Line" index="8" type_name="gh_string" type_code="10">'will work substantially faster.</item>
-                        <item name="Line" index="9" type_name="gh_string" type_code="10"></item>
-                        <item name="LineCount" type_name="gh_int32" type_code="3">10</item>
-                      </items>
-                    </chunk>
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>558</X>
-                          <Y>801</Y>
-                          <W>103</W>
-                          <H>28</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>598</X>
-                          <Y>815</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="param_input" index="0">
-                      <items count="9">
-                        <item name="Description" type_name="gh_string" type_code="10">Uri of file to read</item>
-                        <item name="ExpireOnFileEvent" type_name="gh_bool" type_code="1">false</item>
-                        <item name="FileFilter" type_name="gh_string" type_code="10">All files|*.*</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">d4836c2e-0d01-4adc-9210-ecd994036b69</item>
-                        <item name="Name" type_name="gh_string" type_code="10">File</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">File</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">96167cac-243f-40b7-b8d2-595d6196df51</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>560</X>
-                              <Y>803</Y>
-                              <W>23</W>
-                              <H>24</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>573</X>
-                              <Y>815</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="param_output" index="0">
-                      <items count="7">
-                        <item name="Access" type_name="gh_int32" type_code="3">1</item>
-                        <item name="Description" type_name="gh_string" type_code="10">File content</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">dde03d64-f2ad-42bb-a357-4f29d5a849ec</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Content</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">Content</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>613</X>
-                              <Y>803</Y>
-                              <W>46</W>
-                              <H>24</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>636</X>
-                              <Y>815</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="58">
-              <items count="3">
-                <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
-                <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
-                <item name="Name" type_name="gh_string" type_code="10">GhPython Script</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="12">
-                    <item name="CodeInput" type_name="gh_string" type_code="10">import os
-
-path = ghenv.Component.OnPingDocument().FilePath
-Dir = os.path.join(os.path.dirname(path),RelativeDir)
-
-print Dir
-
-ghenv.Component.Message = "Location:"+str(Dir)</item>
-                    <item name="Description" type_name="gh_string" type_code="10">GhPython provides a Python script component</item>
-                    <item name="EditorLocation" type_name="gh_drawing_point" type_code="30">
-                      <X>456</X>
-                      <Y>224</Y>
-                    </item>
-                    <item name="EditorSize" type_name="gh_drawing_size" type_code="32">
-                      <W>1104</W>
-                      <H>896</H>
-                    </item>
-                    <item name="HideInput" type_name="gh_bool" type_code="1">true</item>
-                    <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
-                    <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">5ca24f8a-2d19-465f-8933-b589e502f774</item>
-                    <item name="IsAdvancedMode" type_name="gh_bool" type_code="1">false</item>
-                    <item name="MarshalOutGuids" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Name" type_name="gh_string" type_code="10">GhPython Script</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Relative Path</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>417</X>
-                          <Y>801</Y>
-                          <W>112</W>
-                          <H>28</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>489</X>
-                          <Y>815</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="ParameterData">
-                      <items count="4">
-                        <item name="InputCount" type_name="gh_int32" type_code="3">1</item>
-                        <item name="InputId" index="0" type_name="gh_guid" type_code="9">84fa917c-1ed8-4db3-8be1-7bdc4a6495a2</item>
-                        <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
-                        <item name="OutputId" index="0" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
-                      </items>
-                      <chunks count="2">
-                        <chunk name="InputParam" index="0">
-                          <items count="11">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">Script variable add_paths_from_local_dir</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">11a6ee08-a842-4ced-8574-c64a5f0d13bf</item>
-                            <item name="Name" type_name="gh_string" type_code="10">RelativeDir</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">RelativeDir</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Source" index="0" type_name="gh_guid" type_code="9">ead50552-8b43-4d95-98a0-c12c1ea58d29</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">37261734-eec7-4f50-b6a8-b8d1f3c4396b</item>
-                          </items>
-                          <chunks count="1">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>419</X>
-                                  <Y>803</Y>
-                                  <W>55</W>
-                                  <H>24</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>448</X>
-                                  <Y>815</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="OutputParam" index="0">
-                          <items count="6">
-                            <item name="Description" type_name="gh_string" type_code="10">Script output Dir.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">96167cac-243f-40b7-b8d2-595d6196df51</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Dir</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">Dir</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                          </items>
-                          <chunks count="1">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>504</X>
-                                  <Y>803</Y>
-                                  <W>23</W>
-                                  <H>24</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>515.5</X>
-                                  <Y>815</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="59">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
-                <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="8">
-                    <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">ead50552-8b43-4d95-98a0-c12c1ea58d29</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10"></item>
-                    <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                    <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
-                    <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                    <item name="UserText" type_name="gh_string" type_code="10">script.py</item>
-                  </items>
-                  <chunks count="2">
-                    <chunk name="Attributes">
-                      <items count="5">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>267</X>
-                          <Y>798</Y>
-                          <W>122</W>
-                          <H>37</H>
-                        </item>
-                        <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
-                        <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>267.0019</X>
-                          <Y>798.9842</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="PanelProperties">
-                      <items count="7">
-                        <item name="Colour" type_name="gh_drawing_color" type_code="36">
-                          <ARGB>200;255;255;255</ARGB>
-                        </item>
-                        <item name="DrawIndices" type_name="gh_bool" type_code="1">true</item>
-                        <item name="DrawPaths" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Multiline" type_name="gh_bool" type_code="1">true</item>
-                        <item name="SpecialCodes" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Stream" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Wrap" type_name="gh_bool" type_code="1">true</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Font">
-                          <items count="2">
-                            <item name="Family" type_name="gh_string" type_code="10">Source Sans Pro ExtraLight</item>
-                            <item name="Size" type_name="gh_single" type_code="5">6.4</item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="60">
-              <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
               </items>
@@ -5723,7 +5475,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">65dcd4ec-5452-4db5-af73-aa9b9f4873c9</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Panel</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
                     <item name="Source" index="0" type_name="gh_guid" type_code="9">50366ef4-1c99-424d-a7c5-3be91eb887fc</item>
@@ -5734,17 +5486,17 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                     <chunk name="Attributes">
                       <items count="5">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>930</X>
-                          <Y>603</Y>
+                          <X>735</X>
+                          <Y>359</Y>
                           <W>302</W>
-                          <H>434</H>
+                          <H>84</H>
                         </item>
                         <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
                         <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>930.6578</X>
-                          <Y>603.7643</Y>
+                          <X>735.7673</X>
+                          <Y>359.7692</Y>
                         </item>
                       </items>
                     </chunk>
@@ -5768,6 +5520,89 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
                           </items>
                         </chunk>
                       </chunks>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="58">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+                <item name="Name" type_name="gh_string" type_code="10">Group</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="13">
+                    <item name="Border" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Colour" type_name="gh_drawing_color" type_code="36">
+                      <ARGB>150;170;135;225</ARGB>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+                    <item name="ID" index="0" type_name="gh_guid" type_code="9">419fba58-8160-4174-9a20-cf9f22616963</item>
+                    <item name="ID" index="1" type_name="gh_guid" type_code="9">f4e6afb9-771b-495a-9603-70e3f068d29a</item>
+                    <item name="ID" index="2" type_name="gh_guid" type_code="9">5ca24f8a-2d19-465f-8933-b589e502f774</item>
+                    <item name="ID" index="3" type_name="gh_guid" type_code="9">ead50552-8b43-4d95-98a0-c12c1ea58d29</item>
+                    <item name="ID" index="4" type_name="gh_guid" type_code="9">65dcd4ec-5452-4db5-af73-aa9b9f4873c9</item>
+                    <item name="ID" index="5" type_name="gh_guid" type_code="9">a9c40d62-0f62-4a1c-b398-e2eb30738632</item>
+                    <item name="ID_Count" type_name="gh_int32" type_code="3">6</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">e9c58893-8339-4ac5-b172-768a64ea99a0</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes" />
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="59">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="13">
+                    <item name="Bold" type_name="gh_bool" type_code="1">false</item>
+                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+                      <X>125.7814</X>
+                      <Y>371.0306</Y>
+                    </item>
+                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+                      <X>254.5587</X>
+                      <Y>371.0306</Y>
+                    </item>
+                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+                      <X>254.5587</X>
+                      <Y>391.2474</Y>
+                    </item>
+                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+                      <X>125.7814</X>
+                      <Y>391.2474</Y>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+                    <item name="Font" type_name="gh_string" type_code="10">Cambria</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">a9c40d62-0f62-4a1c-b398-e2eb30738632</item>
+                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="Size" type_name="gh_single" type_code="5">22</item>
+                    <item name="Text" type_name="gh_string" type_code="10">0) Using code</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>120.7814</X>
+                          <Y>366.0306</Y>
+                          <W>138.7774</W>
+                          <H>30.2168</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>125.7814</X>
+                          <Y>371.0306</Y>
+                        </item>
+                      </items>
                     </chunk>
                   </chunks>
                 </chunk>
@@ -5780,7 +5615,7 @@ ghenv.Component.Message = "Location:"+str(Dir)</item>
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="6983">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</bitmap>
+          <bitmap length="6257">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</bitmap>
         </item>
       </items>
     </chunk>
