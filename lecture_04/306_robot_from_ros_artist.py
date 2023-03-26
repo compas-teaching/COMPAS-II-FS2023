@@ -1,4 +1,4 @@
-z  # Before running this example, make sure to run
+# Before running this example, make sure to run
 # "docker compose up" on the docker/gofa-noetic folder
 from compas.artists import Artist
 from compas_fab.backends import RosClient
