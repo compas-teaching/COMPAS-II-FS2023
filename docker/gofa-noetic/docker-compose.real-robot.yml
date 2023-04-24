@@ -17,8 +17,8 @@ services:
             # If we comment out the first line, we are connecting to our own computer, ie. to a RobotStudio simulated robot
             # If we comment out the second line, we are connecting to a robot with an IP address other than our own, ie. a real one.
             #   The default IP address of all ABB robots (using what is called as "service port") is 192.168.125.1
-            - robot_ip:=host.docker.internal
-            # - robot_ip:=192.168.125.1
+            # - robot_ip:=host.docker.internal
+            - robot_ip:=192.168.125.1
             - robot_streaming_port:=30101
             - robot_state_port:=30201
             - namespace:=rob1
