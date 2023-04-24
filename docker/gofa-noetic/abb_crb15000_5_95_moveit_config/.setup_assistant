@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: abb_crb15000_support
+    relative_path: urdf/crb15000_5_95.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/abb_crb15000_5_95.srdf
+  CONFIG:
+    author_name: Gonzalo Casas
+    author_email: casas@arch.ethz.ch
+    generated_timestamp: 1682259768
