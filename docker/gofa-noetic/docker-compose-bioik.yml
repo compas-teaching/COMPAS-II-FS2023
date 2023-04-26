@@ -1,7 +1,7 @@
 version: '2'
 services:
     rrc-driver:
-        image: gramaziokohler/ros-noetic-dfab:22.12
+        image: gramaziokohler/ros-noetic-dfab:23.04
         container_name: rrc-driver
         environment:
             - ROS_HOSTNAME=rrc-driver
@@ -24,13 +24,15 @@ services:
             - namespace:=rob1
 
     moveit-service:
-        image: gramaziokohler/ros-noetic-dfab:22.12
+        image: gramaziokohler/ros-noetic-dfab:23.04
         container_name: moveit-service
         environment:
             - ROS_HOSTNAME=moveit-service
             - ROS_MASTER_URI=http://ros-core:11311
             # GUI: To forward the GUI to an external X11 server (eg. XMing), uncomment the following line
             # - DISPLAY=host.docker.internal:0.0
+        volumes:
+            - ./abb_crb15000_5_95_moveit_config:/root/catkin_ws/src/abb_crb15000_5_95_moveit_config
         depends_on:
             - ros-core
         command:
@@ -43,7 +45,7 @@ services:
             - pipeline:=ompl
 
     ros-core:
-        image: gramaziokohler/ros-noetic-dfab:22.12
+        image: gramaziokohler/ros-noetic-dfab:23.04
         container_name: ros-core
         ports:
             - "11311:11311"
@@ -51,7 +53,7 @@ services:
             - roscore
 
     ros-bridge:
-        image: gramaziokohler/ros-noetic-dfab:22.12
+        image: gramaziokohler/ros-noetic-dfab:23.04
         container_name: ros-bridge
         environment:
             - "ROS_HOSTNAME=ros-bridge"
@@ -67,7 +69,7 @@ services:
             - rosbridge_websocket.launch
 
     ros-fileserver:
-        image: gramaziokohler/ros-noetic-dfab:22.12
+        image: gramaziokohler/ros-noetic-dfab:23.04
         container_name: ros-fileserver
         environment:
             - ROS_HOSTNAME=ros-fileserver
