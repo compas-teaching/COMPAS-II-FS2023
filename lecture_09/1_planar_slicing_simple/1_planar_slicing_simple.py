@@ -39,12 +39,12 @@ def main():
     # ==========================================================================
     # Load mesh
     # ==========================================================================
-    compas_mesh = Mesh.from_obj(os.path.join(DATA, MODEL))
+    ...
 
     # ==========================================================================
     # Move to origin
     # ==========================================================================
-    move_mesh_to_point(compas_mesh, Point(0,0,0))
+    ...
 
     # ==========================================================================
     # Slicing
@@ -52,59 +52,59 @@ def main():
     #          'cgal':    Very fast. Only for closed paths.
     #                     Requires additional installation (compas_cgal).
     # ==========================================================================
-    slicer = PlanarSlicer(compas_mesh, slicer_type="cgal", layer_height=5)
-    slicer.slice_model()
+    ...
+    
 
     # ==========================================================================
     # Generate brim / raft
     # ==========================================================================
-    generate_brim(slicer, layer_width=4.0, number_of_brim_offsets=5)
+    ...
 
     # ==========================================================================
     # Simplify the paths by removing points with a certain threshold
     # change the threshold value to remove more or less points
     # ==========================================================================
-    simplify_paths_rdp(slicer, threshold=0.5)
+    ...
 
     # ==========================================================================
     # Smooth the seams between layers
     # change the smooth_distance value to achieve smoother, or more abrupt seams
     # ==========================================================================
-    seams_smooth(slicer, smooth_distance=10)
+    ...
 
     # ==========================================================================
     # Prints out the info of the slicer
     # ==========================================================================
-    slicer.printout_info()
+    ...
 
     # ==========================================================================
     # Save slicer data to JSON
     # ==========================================================================
-    save_to_json(slicer.to_data(), OUTPUT_DIR, 'slicer_data.json')
+    ...
 
     # ==========================================================================
     # Initializes the PlanarPrintOrganizer and creates PrintPoints
     # ==========================================================================
-    print_organizer = PlanarPrintOrganizer(slicer)
-    print_organizer.create_printpoints()
+    ...
+    ...
 
     # ==========================================================================
     # Set fabrication-related parameters
     # ==========================================================================
-    set_extruder_toggle(print_organizer, slicer)
-    add_safety_printpoints(print_organizer, z_hop= 10.0)
+    ...
+    ...
     ...
     ...
 
     # ==========================================================================
     # Prints out the info of the PrintOrganizer
     # ==========================================================================
-    print_organizer.printout_info()
+    ...
 
     # ==========================================================================
     # Converts the PrintPoints to data and saves to JSON
     # =========================================================================
-    utils.save_to_json(print_organizer.output_printpoints_dict(), OUTPUT_DIR, 'out_printpoints.json')
+    ...
 
 
     end_time = time.time()
