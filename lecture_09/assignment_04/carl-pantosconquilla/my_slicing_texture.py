@@ -3,8 +3,15 @@ from compas_slicer.utilities.utils import get_normal_of_path_on_xy_plane
 from compas.geometry import Point
 from compas.geometry import scale_vector, add_vectors
 
-def create_overhang_texture(slicer, overhang_distance):
-    """Creates a cool overhang texture"""
+def create_cool_texture(slicer, overhang_distance):
+    """Creates a cool texture"""
+
+    print("Creating cool texture")
+
+
+
+def create_cool_texture_example(slicer, overhang_distance):
+    """Creates a cool texture"""
 
     print("Creating cool texture")
 
@@ -26,10 +33,12 @@ def create_overhang_texture(slicer, overhang_distance):
                         # create a new point by adding the point and the normal vector
                         new_pt = add_vectors(pt, normal_scaled)
                         # recreate the new_pt values as compas_points
-                        pt = Point(new_pt[0], new_pt[1], new_pt[2])
-
-                    # append the points to the new path
-                    new_path.append(pt)
+                        # new_compas_pt = Point(new_pt[0], new_pt[1], new_pt[2])
+                        new_compas_pt = Point(*new_pt)  # Fancy version, taking the direct reference
+                        # append the points to the new path
+                        new_path.append(new_compas_pt)
+                    else:
+                        new_path.append(pt)
 
                 # replace the current path with the new path that we just created
                 layer.paths[j] = Path(new_path, is_closed=path.is_closed)

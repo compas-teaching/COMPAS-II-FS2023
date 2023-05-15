@@ -24,7 +24,7 @@ from compas.datastructures import Mesh
 from compas.geometry import Point
 
 # own function
-from my_slicing_texture import create_overhang_texture
+from my_slicing_texture import create_cool_texture
 
 # ==============================================================================
 # Logging
@@ -84,7 +84,7 @@ def main():
     ############################################################################
     # INSERT OWN TEXTURE HERE
     ############################################################################
-    # create_overhang_texture(slicer, overhang_distance=15)
+    create_cool_texture(slicer, overhang_distance=3)
 
     # ==========================================================================
     # Smooth the seams between layers
