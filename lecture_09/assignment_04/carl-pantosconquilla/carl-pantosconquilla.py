@@ -1,3 +1,7 @@
+# Carl P-Conquila 15-05-2023
+# Assignment 04 COMPAS FS Course
+
+
 import time
 import os
 import logging
@@ -9,7 +13,7 @@ from compas_slicer.post_processing import generate_brim
 from compas_slicer.post_processing import generate_raft
 from compas_slicer.post_processing import simplify_paths_rdp
 from compas_slicer.post_processing import seams_smooth
-from compas_slicer.print_organization import PlanarPrintOrganizer
+from compas_slicer.print_organization import PlanarPrintOrganizer as PlanarPrintOrganiser
 from compas_slicer.print_organization import set_extruder_toggle
 from compas_slicer.print_organization import add_safety_printpoints
 from compas_slicer.print_organization import set_linear_velocity_constant
@@ -75,18 +79,18 @@ def main():
     # Simplify the paths by removing points with a certain threshold
     # change the threshold value to remove more or less points
     # ==========================================================================
-    simplify_paths_rdp(slicer, threshold=0.7)
+    simplify_paths_rdp(slicer, threshold=0.5)
 
     ############################################################################
     # INSERT OWN TEXTURE HERE
     ############################################################################
-    create_overhang_texture(slicer, overhang_distance=15)
+    # create_overhang_texture(slicer, overhang_distance=15)
 
     # ==========================================================================
     # Smooth the seams between layers
     # change the smooth_distance value to achieve smoother, or more abrupt seams
     # ==========================================================================
-    # seams_smooth(slicer, smooth_distance=10)
+    seams_smooth(slicer, smooth_distance=10)
 
     # ==========================================================================
     # Prints out the info of the slicer
@@ -99,28 +103,28 @@ def main():
     save_to_json(slicer.to_data(), OUTPUT_DIR, 'slicer_data.json')
 
     # ==========================================================================
-    # Initializes the PlanarPrintOrganizer and creates PrintPoints
+    # Initializes the PlanarPrintOrganiser and creates PrintPoints
     # ==========================================================================
-    print_organizer = PlanarPrintOrganizer(slicer)
-    print_organizer.create_printpoints()
+    print_organiser = PlanarPrintOrganiser(slicer)
+    print_organiser.create_printpoints()
 
     # ==========================================================================
     # Set fabrication-related parameters
     # ==========================================================================
-    # set_extruder_toggle(print_organizer, slicer)
-    # add_safety_printpoints(print_organizer, z_hop=10.0)
-    # set_linear_velocity_constant(print_organizer, v=100.0)
-    # set_blend_radius(print_organizer, d_fillet=10.0)
+    set_extruder_toggle(print_organiser, slicer)
+    add_safety_printpoints(print_organiser, z_hop=10.0)
+    set_linear_velocity_constant(print_organiser, v=100.0)
+    set_blend_radius(print_organiser, d_fillet=10.0)
 
     # ==========================================================================
-    # Prints out the info of the PrintOrganizer
+    # Prints out the info of the Printorganiser
     # ==========================================================================
-    print_organizer.printout_info()
+    print_organiser.printout_info()
 
     # ==========================================================================
     # Converts the PrintPoints to data and saves to JSON
     # =========================================================================
-    printpoints_data = print_organizer.output_printpoints_dict()
+    printpoints_data = print_organiser.output_printpoints_dict()
     save_to_json(printpoints_data, OUTPUT_DIR, 'out_printpoints.json')
 
     end_time = time.time()
