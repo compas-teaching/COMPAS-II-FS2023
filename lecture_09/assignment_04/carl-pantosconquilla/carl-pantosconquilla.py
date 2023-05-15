@@ -56,6 +56,7 @@ def main():
     #                     Requires additional installation (compas_cgal).
     # ==========================================================================
     slicer = PlanarSlicer(compas_mesh, slicer_type="cgal", layer_height=5)
+    # slicer = PlanarSlicer(compas_mesh, slicer_type="default", layer_height=5)
     slicer.slice_model()
 
     # ==========================================================================
@@ -120,7 +121,7 @@ def main():
     # Converts the PrintPoints to data and saves to JSON
     # =========================================================================
     printpoints_data = print_organizer.output_printpoints_dict()
-    utils.save_to_json(printpoints_data, OUTPUT_DIR, 'out_printpoints.json')
+    save_to_json(printpoints_data, OUTPUT_DIR, 'out_printpoints.json')
 
     end_time = time.time()
     print("Total elapsed time", round(end_time - start_time, 2), "seconds")
