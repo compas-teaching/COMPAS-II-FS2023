@@ -1,29 +1,5 @@
-import functools
+import math
 from collections import deque
-
-import compas_rhino
-from compas.artists import Artist
-from compas.utilities import color_to_colordict
-
-colordict = functools.partial(color_to_colordict, colorformat="rgb", normalize=False)
-
-
-def draw_directed_edges(artist, edges=None, color=None):
-    node_xyz = artist.node_xyz
-    edges = edges or list(artist.network.edges())
-    edge_color = colordict(color, edges)
-    lines = []
-    for edge in edges:
-        lines.append(
-            {
-                "start": node_xyz[edge[0]],
-                "end": node_xyz[edge[1]],
-                "color": edge_color[edge],
-                "arrow": "end",
-                "name": "{}.edge.{}-{}".format(artist.network.name, *edge),
-            }
-        )
-    return compas_rhino.draw_lines(lines, layer=artist.layer, clear=False, redraw=False)
 
 
 def traverse(assembly, k):
@@ -38,34 +14,6 @@ def traverse(assembly, k):
                 visited.add(nbr)
                 ordering.append(nbr)
     return ordering
-
-
-def draw_parts(assembly):
-    import compas_ghpython
-
-    points = [{"pos": list(part.frame.point)} for part in assembly.parts()]
-    return compas_ghpython.draw_points(points)
-
-
-def draw_connections(assembly):
-    import compas_ghpython
-
-    lines = []
-
-    for u, v in assembly.connections():
-        u = assembly.find_by_key(u)
-        v = assembly.find_by_key(v)
-        lines.append(
-            {
-                "start": list(u.frame.point),
-                "end": list(v.frame.point),
-            }
-        )
-    return compas_ghpython.draw_lines(lines)
-
-
-def draw_parts_attribute(assembly, attribute_name):
-    return [Artist(p.attributes[attribute_name]).draw() for p in assembly.parts()]
 
 
 def get_assembly_sequence(assembly, top_course):
@@ -87,3 +35,10 @@ def get_assembly_sequence(assembly, top_course):
             part = assembly.find_by_key(part)
 
     return sequence
+
+
+def generate_default_tolerances(joints):
+    DEFAULT_TOLERANCE_METERS = 0.001
+    DEFAULT_TOLERANCE_RADIANS = math.radians(1)
+
+    return [DEFAULT_TOLERANCE_METERS if j.is_scalable() else DEFAULT_TOLERANCE_RADIANS for j in joints]
