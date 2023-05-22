@@ -13,7 +13,7 @@ def create_cool_texture(slicer, overhang_percentage):
             for j, path in enumerate(layer.paths):
                 new_path = []
                 for k, pt in enumerate(path.points):
-                    if k % 6 in [0, 1, 2]:
+                    if k % 6 in range(3, 7):
                         normal = get_normal_of_path_on_xy_plane(k, pt, path, mesh=None)
                         # Create gap in wall surface by drawing points backwards
                         #   and add rigidity to the print by creating corrugations
