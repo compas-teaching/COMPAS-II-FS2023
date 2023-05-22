@@ -20,7 +20,7 @@ from compas.datastructures import Mesh
 from compas.geometry import Point
 
 # own function
-from my_slicing_texture import create_overhang_texture
+from slicing_texture import create_overhang_texture
 
 # ==============================================================================
 # Logging

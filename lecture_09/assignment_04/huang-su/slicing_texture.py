@@ -14,14 +14,14 @@ def create_overhang_texture(slicer, overhang_distance):
         for j, path in enumerate(layer.paths):     
             print('path: ', path)
             # create an empty layer in which we can store our modified points
-            new_path = []
+            new_path = []    
             for k, pt in enumerate(path.points):
                 # for every second point (only even points)
-                if k % 5 == 0:
+                if (k+i) % 15 == 0:
                     # get the normal of the point in relation to the mesh
                     normal = get_normal_of_path_on_xy_plane(k, pt, path, mesh=None)
                     # scale the vector by a number to move the point
-                    normal_scaled = scale_vector(normal, -overhang_distance*(k / 5))
+                    normal_scaled = scale_vector(normal, -overhang_distance*((k+i) / 5))
                     # create a new point by adding the point and the normal vector
                     new_pt = add_vectors(pt, normal_scaled)
                     # recreate the new_pt values as compas_points
