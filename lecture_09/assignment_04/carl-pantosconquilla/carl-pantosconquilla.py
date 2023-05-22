@@ -84,7 +84,9 @@ def main():
     ############################################################################
     # INSERT OWN TEXTURE HERE
     ############################################################################
-    create_cool_texture(slicer, overhang_distance=3)
+    create_cool_texture(slicer, overhang_percentage=30)   
+                                # overhang_percentage is a percentage
+                                #    to bring the inset inwards
 
     # ==========================================================================
     # Smooth the seams between layers

@@ -3,11 +3,28 @@ from compas_slicer.utilities.utils import get_normal_of_path_on_xy_plane
 from compas.geometry import Point
 from compas.geometry import scale_vector, add_vectors
 
-def create_cool_texture(slicer, overhang_distance):
+def create_cool_texture(slicer, overhang_percentage):
     """Creates a cool texture"""
 
-    print("Creating cool texture")
+    print("*****Texturisation is happening in a cool way...*****")
 
+    for i, layer in enumerate(slicer.layers):
+        if i % 3 == 0 and i > 0:
+            for j, path in enumerate(layer.paths):
+                new_path = []
+                for k, pt in enumerate(path.points):
+                    if k % 6 in [0, 1, 2]:
+                        normal = get_normal_of_path_on_xy_plane(k, pt, path, mesh=None)
+                        # Create gap in wall surface by drawing points backwards
+                        #   and add rigidity to the print by creating corrugations
+                        # Could look really cool with some light inside
+                        normal_scaled = scale_vector(normal, overhang_percentage)
+                        new_pt = add_vectors(pt, normal_scaled)
+                        new_compas_pt = Point(*new_pt)
+                        new_path.append(new_compas_pt)
+                    else:
+                        new_path.append(pt)
+                    layer.paths[j] = Path(new_path, is_closed=path.is_closed)
 
 
 def create_cool_texture_example(slicer, overhang_distance):
