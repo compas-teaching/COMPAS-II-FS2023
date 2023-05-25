@@ -72,17 +72,17 @@ if __name__ == "__main__":
             total_points = len(pick_trajectory.points) * 2 + len(move_trajectory.points) * 2 + len(place_trajectory.points) * 2
 
             abb.send(rrc.PrintText("Sending {} PnP points. Press play to move".format(total_points)))
-            abb.send(rrc.Stop())
+            # abb.send(rrc.Stop())
 
             speed = speed or 500
             send_trajectory(abb, speed, pick_trajectory.points)
-            abb.send(rrc.SetDigital(io_signal, 1))
-            abb.send(rrc.WaitTime(1))
+            # abb.send(rrc.SetDigital(io_signal, 1))
+            # abb.send(rrc.WaitTime(1))
             send_trajectory(abb, speed, list(reversed(pick_trajectory.points)), last_point_fine=False)
             send_trajectory(abb, speed, move_trajectory.points, last_point_fine=False)
             send_trajectory(abb, speed, place_trajectory.points)
-            abb.send(rrc.SetDigital(io_signal, 0))
-            abb.send(rrc.WaitTime(1))
+            # abb.send(rrc.SetDigital(io_signal, 0))
+            # abb.send(rrc.WaitTime(1))
             send_trajectory(abb, speed, list(reversed(place_trajectory.points)), last_point_fine=False)
             send_trajectory(abb, speed, list(reversed(move_trajectory.points)))
 
