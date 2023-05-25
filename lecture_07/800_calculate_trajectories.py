@@ -7,8 +7,8 @@ from compas.datastructures import Mesh
 
 
 import os
-from helpers import generate_default_tolerances
-from helpers import get_assembly_sequence
+from helpers_2 import generate_default_tolerances
+from helpers_2 import get_assembly_sequence
 
 APPROACH_DISTANCE = 0.1
 group = None
@@ -51,7 +51,8 @@ assembly = Assembly.from_json("lecture_07/assembly-data.json")
 mesh = Mesh.from_stl(os.path.join(HERE, "vacuum_gripper.stl"))
 tool = Tool(mesh, Frame([0, 0, 0.07], [1, 0, 0], [0, 1, 0]))
 # tool = Tool.from_data(assembly.attributes["robot_tool"])
-pick_frame = Frame.from_plane(Plane([0.78,0.01,0.01], [0.00,0.00,-1.00]))
+pick_frame = assembly.attributes["pick_frame"]
+# pick_frame = Frame.from_plane(Plane([0.78,0.01,0.01], [0.00,0.00,-1.00]))
 
 # 0. O(0.78,0.01,0.01) Z(0.00,0.00,-1.00)
 # pick_frame = Frame.from_data(assembly.attributes["pickup_frame"])
@@ -66,6 +67,7 @@ with RosClient() as ros:
 
     top_course = assembly.attributes["courses"]
     sequence = get_assembly_sequence(assembly, top_course)
+    print (len(sequence))
 
     i = 0
     for index in sequence:
@@ -138,9 +140,10 @@ with RosClient() as ros:
             part.attributes["move_trajectory"] = move_trajectory
 
         except Exception:
+            print ("fuck")
             assembly.to_json("lecture_07/assembly_solved.json", pretty=True)
 
-        # if i >= 50:
+        # if i >= 10:
         #     print("Only testing, stop here")
         #     break
 
