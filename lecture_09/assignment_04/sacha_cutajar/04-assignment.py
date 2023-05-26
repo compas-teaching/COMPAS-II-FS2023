@@ -19,7 +19,7 @@ from compas_slicer.utilities import save_to_json
 from compas.datastructures import Mesh
 from compas.geometry import Point
 
-# own function
+# own function #
 from my_slicing_texture import create_overhang_texture
 
 # ==============================================================================
