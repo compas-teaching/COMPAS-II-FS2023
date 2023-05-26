@@ -78,7 +78,7 @@ if __name__ == "__main__":
             send_trajectory(abb, speed, pick_trajectory.points)
             # abb.send(rrc.SetDigital(io_signal, 1))
             # abb.send(rrc.WaitTime(1))
-            send_trajectory(abb, speed, list(reversed(pick_trajectory.points)), last_point_fine=False)
+            send_trajectory(abb, speed, list(reversed(pick_trajectory.points)), last_point_fine=True)
             send_trajectory(abb, speed, move_trajectory.points, last_point_fine=False)
             send_trajectory(abb, speed, place_trajectory.points)
             # abb.send(rrc.SetDigital(io_signal, 0))
