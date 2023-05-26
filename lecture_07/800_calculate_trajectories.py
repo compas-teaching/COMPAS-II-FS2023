@@ -125,6 +125,7 @@ with RosClient() as ros:
                 start_configuration=approach_pick_config,
                 group=group,
                 options=dict(
+                    # planner_id="LIN",
                     planner_id="BiTRRT",
                 ),
             )
