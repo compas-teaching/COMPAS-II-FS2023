@@ -40,8 +40,8 @@ services:
             - demo.launch
             # To launch the RVIZ GUI, change the following to true
             - use_rviz:=false
-            - pipeline:=pliz_industrial_planner
-            #- pipeline:=ompl
+            # - pipeline:=pliz_industrial_planner
+            - pipeline:=ompl
 
     ros-core:
         image: gramaziokohler/ros-noetic-dfab:22.12
