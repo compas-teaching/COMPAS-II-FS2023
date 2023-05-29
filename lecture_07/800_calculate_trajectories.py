@@ -47,7 +47,7 @@ def calculate_pick_trajectory(pick_frame, robot):
 
 HERE = os.path.dirname(__file__)
 
-assembly = Assembly.from_json("lecture_07/assembly-data.json")
+assembly = Assembly.from_json("lecture_07/assembly-jk.json")
 mesh = Mesh.from_stl(os.path.join(HERE, "vacuum_gripper.stl"))
 tool = Tool(mesh, Frame([0, 0, 0.07], [1, 0, 0], [0, 1, 0]))
 # tool = Tool.from_data(assembly.attributes["robot_tool"])
@@ -65,15 +65,17 @@ with RosClient() as ros:
     pick_trajectory, pick_config, approach_pick_config = calculate_pick_trajectory(pick_frame, robot)
     print("Calculate pick trajectory: done")
 
-    top_course = assembly.attributes["courses"]
-    sequence = get_assembly_sequence(assembly, top_course)
-    print (len(sequence))
+    # top_course = assembly.attributes["courses"]
+    # sequence = get_assembly_sequence(assembly, top_course)
+    # print (len(sequence))
+
+
 
     i = 0
-    for index in sequence:
+    for index in range(95):
         i += 1
-        print(f"{i}. Calculate part key={sequence[index]} place trajectory")
-        part = assembly.find_by_key(sequence[index])
+        print(f"{i}. Calculate part key={index} place trajectory")
+        part = assembly.find_by_key(index)
         if "move_trajectory" in part.attributes:
             continue
 
@@ -148,4 +150,4 @@ with RosClient() as ros:
         #     print("Only testing, stop here")
         #     break
 
-    assembly.to_json("lecture_07/assembly_solved.json", pretty=True)
+    assembly.to_json("lecture_07/assembly_solved_jk.json", pretty=True)

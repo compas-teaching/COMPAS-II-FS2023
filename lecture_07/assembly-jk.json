@@ -611,7 +611,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "8718882b-c62b-4b1d-b50b-5cbecde77f10", 
+                                "guid": "f858348e-b81e-4896-ab89-de38893477ff", 
                                 "value": {
                                     "point": [
                                         0.74597349280498726, 
@@ -805,7 +805,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "6d26fdaf-fb7f-4db3-8415-73c5f626dd89", 
+                                "guid": "b383c17d-1bc8-4597-8d65-4f8908c9027a", 
                                 "value": {
                                     "point": [
                                         0.73717146418075385, 
@@ -999,7 +999,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "126154a5-93fe-4039-ac43-acd10a12b059", 
+                                "guid": "2871bc2f-f17e-45f2-b2c5-a59d4c69f633", 
                                 "value": {
                                     "point": [
                                         0.68225975567178387, 
@@ -1193,7 +1193,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "8a385895-a8b5-4a00-8925-504f56585a72", 
+                                "guid": "365a0763-ed6b-4344-b8bf-108ae3043b84", 
                                 "value": {
                                     "point": [
                                         0.74375159726036943, 
@@ -1387,7 +1387,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "1bccfc77-3b5e-4754-a2d1-eabc9d990e54", 
+                                "guid": "5ea96e3f-0628-4f0c-9a90-e8a634362db1", 
                                 "value": {
                                     "point": [
                                         0.72822811519222974, 
@@ -1581,7 +1581,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "6e89c066-f4ae-41dc-b2eb-d72f60154649", 
+                                "guid": "f426e734-64e2-4cdc-98ee-d22dc3c0d7a3", 
                                 "value": {
                                     "point": [
                                         0.73690796531534775, 
@@ -1775,7 +1775,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "b698096c-115e-43fa-867b-fdf760384e47", 
+                                "guid": "dba8750b-eadc-42e7-91d5-8d3026117779", 
                                 "value": {
                                     "point": [
                                         0.72973329818845745, 
@@ -1969,7 +1969,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "934dbee9-58eb-4315-b1ef-bf0e1006ea9a", 
+                                "guid": "c2af991c-2618-427e-86c1-6935586d9122", 
                                 "value": {
                                     "point": [
                                         0.72238078403821671, 
@@ -2163,7 +2163,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "a639ffdd-a0ec-4c81-953e-7e7d1172835b", 
+                                "guid": "8a44021f-4e84-4dd5-9dbd-1781a4431e14", 
                                 "value": {
                                     "point": [
                                         0.71500473186591074, 
@@ -2477,7 +2477,7 @@
                             }, 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "bc3871b4-2c5f-4a89-814c-a3a4c901a989", 
+                                "guid": "c7c96ae8-573f-4d83-8ec7-4771f852ec66", 
                                 "value": {
                                     "point": [
                                         0.70776866338086486, 
@@ -2671,7 +2671,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "d3764a69-30aa-457c-8c0e-c86a316c94f7", 
+                                "guid": "6a275ccb-ddbf-4df8-8cae-8d95a5277112", 
                                 "value": {
                                     "point": [
                                         0.70085527580497109, 
@@ -2865,7 +2865,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "078032fd-ba29-4ebd-9106-58d9ea0486c4", 
+                                "guid": "e6d9a546-8b2d-42fb-af32-542b70211547", 
                                 "value": {
                                     "point": [
                                         0.69447947805024857, 
@@ -3059,7 +3059,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "0906b23a-2072-4749-95c3-d344639d4ae1", 
+                                "guid": "7e907849-2f5c-4d23-a188-eb548a8757be", 
                                 "value": {
                                     "point": [
                                         0.68288971620692829, 
@@ -3253,7 +3253,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "bb38f193-f424-4d1a-aae3-af6789572de9", 
+                                "guid": "7bf19c00-7fb6-40c0-8233-ba2c3e175472", 
                                 "value": {
                                     "point": [
                                         0.68890616444553487, 
@@ -3447,7 +3447,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "33e4fde5-a481-48ea-a090-f0b833e2b8be", 
+                                "guid": "726cd0d0-ddd8-4403-8aef-1e5b3aeaafa8", 
                                 "value": {
                                     "point": [
                                         0.6844745750159581, 
@@ -3641,7 +3641,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "70ea6044-1eac-4d2f-975c-ffc4555eacd7", 
+                                "guid": "c4044336-c35a-4cdb-9dfd-ce9bd3bc6ddf", 
                                 "value": {
                                     "point": [
                                         0.68162979513663924, 
@@ -3835,7 +3835,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "99aa8e7e-7e7c-4189-a7e9-67886173b0bb", 
+                                "guid": "070618bc-d341-4a3d-859a-56d63171cc96", 
                                 "value": {
                                     "point": [
                                         0.71931801717898824, 
@@ -4029,7 +4029,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "56153529-85c8-43c6-b027-e30d5612d79e", 
+                                "guid": "fe591d5d-d19d-4178-b256-c1abacc15a27", 
                                 "value": {
                                     "point": [
                                         0.74264064948806052, 
@@ -4223,7 +4223,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "d7ae1066-013a-44ae-8ac0-8822bb6f04ce", 
+                                "guid": "4d3339ba-92e2-4e50-b141-ad1334bf9b50", 
                                 "value": {
                                     "point": [
                                         0.73425064583355248, 
@@ -4417,7 +4417,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "31b0aeba-c714-450f-8bb7-160437050542", 
+                                "guid": "4b8b1bc5-2c82-4054-96eb-bc3038bd143e", 
                                 "value": {
                                     "point": [
                                         0.72504078682577033, 
@@ -4611,7 +4611,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "3508b880-5ab3-4c1c-bac4-ae0eb29947e1", 
+                                "guid": "0130784f-0340-453b-b1ea-caa0b3f44d92", 
                                 "value": {
                                     "point": [
                                         0.71540130161492277, 
@@ -4805,7 +4805,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "8ec67cfe-089a-4d4b-a9d1-bcf1ac79ce32", 
+                                "guid": "f0e3c024-0165-4d8f-b902-bdeab24966db", 
                                 "value": {
                                     "point": [
                                         0.70572066612300155, 
@@ -4999,7 +4999,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "52eacec2-bd04-43d9-b3d1-f9a03097ea1d", 
+                                "guid": "faaadb0c-add6-42b5-8ba4-9c3fcb8fc6b7", 
                                 "value": {
                                     "point": [
                                         0.69641615147734692, 
@@ -5193,7 +5193,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "fe4e9f68-b335-40a2-a92d-fcd70d0e82ff", 
+                                "guid": "134474a6-8d08-4e7d-baaa-a546ddb925e5", 
                                 "value": {
                                     "point": [
                                         0.74486254503267846, 
@@ -5387,7 +5387,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "7ffc3d12-72a4-47fe-a90f-6f42d324b66a", 
+                                "guid": "fa6eb910-40cc-4d63-b00a-4b29e34524b0", 
                                 "value": {
                                     "point": [
                                         0.68797328502078159, 
@@ -5581,7 +5581,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "7785934c-aeb5-404e-8b30-1df5a2a7d87f", 
+                                "guid": "e4d025cd-4550-4f1b-8d16-054451360b28", 
                                 "value": {
                                     "point": [
                                         0.68099983460149471, 
@@ -5775,7 +5775,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "c234a19c-fdc5-42d7-900c-eef3b8ab53e9", 
+                                "guid": "81d13cb1-7ede-42c1-86ec-f7d14d0f266a", 
                                 "value": {
                                     "point": [
                                         0.7415297017157515, 
@@ -5969,7 +5969,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "99fac394-5d81-4b5c-b665-fa25759945c3", 
+                                "guid": "1d974631-948b-4648-a04b-b350ef822100", 
                                 "value": {
                                     "point": [
                                         0.73691093742314984, 
@@ -6163,7 +6163,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "98c5b427-0f06-4e9d-8b6d-44f9e80143c1", 
+                                "guid": "c5ec3920-e557-4808-8bb9-f9dcb051ab59", 
                                 "value": {
                                     "point": [
                                         0.71063192654560337, 
@@ -6357,7 +6357,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "aa953eb0-f511-4381-bfda-330b322743e5", 
+                                "guid": "c9ed3cf1-a7bd-4f1b-b482-03a50d273a2a", 
                                 "value": {
                                     "point": [
                                         0.73167401111073449, 
@@ -6551,7 +6551,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "7ff372eb-4af7-4b6f-8b7b-7c092580bb53", 
+                                "guid": "b13dffb3-f1e3-4cdd-8250-36b51c353f6e", 
                                 "value": {
                                     "point": [
                                         0.72593360328574807, 
@@ -6745,7 +6745,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "a5662480-858b-4172-b117-f109507882fa", 
+                                "guid": "b1c439cf-8b3d-452f-8c63-5ed606025db5", 
                                 "value": {
                                     "point": [
                                         0.71979798908559434, 
@@ -6939,7 +6939,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "36cb2900-833d-4eaf-8910-98a52d2cec02", 
+                                "guid": "828a9d19-ec8d-468f-999a-1ab2807854d1", 
                                 "value": {
                                     "point": [
                                         0.71337051078892033, 
@@ -7133,7 +7133,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "49451217-03c0-481b-bd2b-9bd33ae1e9e5", 
+                                "guid": "1fd27ba3-e235-4858-8a4e-9e9fe59d643b", 
                                 "value": {
                                     "point": [
                                         0.70675135716740534, 
@@ -7327,7 +7327,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "f80d35ae-d2de-4760-bc65-dc23b34bfffb", 
+                                "guid": "abef2af1-a609-4faf-9b8f-32f529f3d59d", 
                                 "value": {
                                     "point": [
                                         0.73356693723983535, 
@@ -7521,7 +7521,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "8c07c27e-5800-456e-a911-324b7c4db888", 
+                                "guid": "02b49cf4-3798-4a30-a110-6104e723d177", 
                                 "value": {
                                     "point": [
                                         0.70003956621179686, 
@@ -7715,7 +7715,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "2b930c8a-0c43-460c-aac5-469a2c0fcbe0", 
+                                "guid": "2f5ff6fa-1826-41d8-abbe-3704478c9997", 
                                 "value": {
                                     "point": [
                                         0.69333524942781755, 
@@ -7909,7 +7909,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "df1383e6-bd94-4a71-99d8-8a3eaa3be606", 
+                                "guid": "0db2aab6-be56-4955-a700-557d58fd4323", 
                                 "value": {
                                     "point": [
                                         0.6867420469977864, 
@@ -8103,7 +8103,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "88821d54-f5d2-4f38-b0a0-9a3c67071034", 
+                                "guid": "af189278-9c45-448a-96a1-47ce34742ba3", 
                                 "value": {
                                     "point": [
                                         0.68036987406635019, 
@@ -8297,7 +8297,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "dd1202b5-228d-4c25-adb2-31105215f1ff", 
+                                "guid": "db16202e-e7cb-419f-8370-d1414ad5db75", 
                                 "value": {
                                     "point": [
                                         0.74041875394344259, 
@@ -8491,7 +8491,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "6c682e57-9da5-414e-9ac0-d1a1ff3356ed", 
+                                "guid": "86774224-6dc7-42c9-b7af-db499cd68034", 
                                 "value": {
                                     "point": [
                                         0.70239445434345971, 
@@ -8685,7 +8685,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "93987761-25bf-4e9e-9d16-07ff38a3cf2a", 
+                                "guid": "bf2b9bac-8d71-4a71-94f0-db1dab14aae0", 
                                 "value": {
                                     "point": [
                                         0.73532761605550223, 
@@ -8879,7 +8879,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "f0ce22d0-d6bb-4bda-bcea-6635feeac052", 
+                                "guid": "1679c2a9-b3e3-4407-8135-22cb092b1fe1", 
                                 "value": {
                                     "point": [
                                         0.72866372111565125, 
@@ -9073,7 +9073,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "1258e8c6-d024-44a3-9888-b00d6c27c79e", 
+                                "guid": "f10264ae-56b0-48ff-a5de-f33584ead523", 
                                 "value": {
                                     "point": [
                                         0.72067299690478936, 
@@ -9267,7 +9267,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "5d9bbe1c-3506-406e-997e-04bb77476683", 
+                                "guid": "b944b8df-b1a6-4627-a2a3-56377dd7f2cd", 
                                 "value": {
                                     "point": [
                                         0.71158445072817089, 
@@ -9461,7 +9461,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "a9cc7a0a-2d1c-43f7-b917-8c6b1ef8d602", 
+                                "guid": "6799162c-9810-44a5-b6dd-bfd5f02cacbd", 
                                 "value": {
                                     "point": [
                                         0.72195475782567242, 
@@ -9655,7 +9655,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "3910d1d7-6f28-48ce-bace-729c64770f2f", 
+                                "guid": "48f6bb7c-b8d6-4393-91b4-17723f538d59", 
                                 "value": {
                                     "point": [
                                         0.70160800635473897, 
@@ -9849,7 +9849,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "d155527d-cfa6-425c-8a0e-cc346e13a464", 
+                                "guid": "b5a51ad9-00ea-45c1-9cb6-5bbd9a7bd3d4", 
                                 "value": {
                                     "point": [
                                         0.69093496367562812, 
@@ -10043,7 +10043,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "70e60790-5079-4192-a736-209150bed442", 
+                                "guid": "2b20853f-2d7a-45f8-b378-0b4ad761b2db", 
                                 "value": {
                                     "point": [
                                         0.67973991353120566, 
@@ -10237,7 +10237,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "67d70fdd-cbf1-43a7-ac7c-1b7f34c68ad5", 
+                                "guid": "9179d553-0469-41b0-8399-e9893381a7b1", 
                                 "value": {
                                     "point": [
                                         0.73930780617113379, 
@@ -10431,7 +10431,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "fd3c63e8-f197-46c1-85f6-8c160f08a8cd", 
+                                "guid": "8a14becc-4bbf-4b0f-bf22-4d460cdca517", 
                                 "value": {
                                     "point": [
                                         0.73723913267537799, 
@@ -10625,7 +10625,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "2f33da1c-8eee-4724-8f77-a53c5d7ebbd8", 
+                                "guid": "27ac90ad-955b-4370-8e10-a515a4612bbc", 
                                 "value": {
                                     "point": [
                                         0.73413806282286065, 
@@ -10819,7 +10819,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "586cd7e0-c4b6-4869-bc77-10d7850ab6f4", 
+                                "guid": "79d221de-ce82-4dc3-97ac-f8dae4eafa78", 
                                 "value": {
                                     "point": [
                                         0.69488979845569876, 
@@ -11013,7 +11013,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "f30c8672-44e6-4a72-b17f-1ed03f27eead", 
+                                "guid": "0300f476-57c5-4664-85fa-37f847df44f3", 
                                 "value": {
                                     "point": [
                                         0.7300551930220357, 
@@ -11207,7 +11207,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "f3cf59d8-91b5-404d-9aaa-332f59d27ab2", 
+                                "guid": "c0e83e13-e5c7-4faf-8b7b-8934a2a28da6", 
                                 "value": {
                                     "point": [
                                         0.72504828498504137, 
@@ -11401,7 +11401,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "807e90f1-12bb-4323-82fb-9103ac7c174c", 
+                                "guid": "94abe5c4-33a3-442c-a707-b9ad56f71ff8", 
                                 "value": {
                                     "point": [
                                         0.71917947077064781, 
@@ -11595,7 +11595,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "d14e54e6-eb43-4caf-b2f9-f8df15b1db50", 
+                                "guid": "df3ffeba-25d4-4e3b-a82b-d3e6df403ba5", 
                                 "value": {
                                     "point": [
                                         0.71052495065520849, 
@@ -11789,7 +11789,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "630b5486-2605-4f60-94e1-9ceb1cf0ee4e", 
+                                "guid": "50009a83-63ce-4dcb-9e72-722292ea18be", 
                                 "value": {
                                     "point": [
                                         0.71251275194739261, 
@@ -11983,7 +11983,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "fbdd2322-8c1b-435c-9a3c-30c4995ce3be", 
+                                "guid": "e4b63f31-3198-43e8-a407-2297c914556d", 
                                 "value": {
                                     "point": [
                                         0.7051119334849365, 
@@ -12177,7 +12177,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "173340a7-af18-4956-a25c-006ef4c3f32a", 
+                                "guid": "5a8bc068-f9b1-4f0e-abea-bdbcf63cc28c", 
                                 "value": {
                                     "point": [
                                         0.6970390400909392, 
@@ -12371,7 +12371,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "a0f19ca9-58ba-4806-8dda-7cbeb7799e2f", 
+                                "guid": "0e3bd31f-6b16-4c3e-a5c5-225828e5f784", 
                                 "value": {
                                     "point": [
                                         0.68835320389028998, 
@@ -12565,7 +12565,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "6f3ea13a-4fa7-4b3c-870c-40171847148f", 
+                                "guid": "b8543e58-884c-4aa1-a92e-55e5bcf018a5", 
                                 "value": {
                                     "point": [
                                         0.67910995299606125, 
@@ -12759,7 +12759,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "2d63ae78-6637-4723-b191-22683996a18b", 
+                                "guid": "53ee1ade-9400-48a2-88ef-7b931854f32f", 
                                 "value": {
                                     "point": [
                                         0.73819685839882454, 
@@ -12953,7 +12953,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "3653947e-8da2-40db-b153-cfc89c07d47c", 
+                                "guid": "f9b69bc4-1ed3-4bf9-9379-b5a2abab9b44", 
                                 "value": {
                                     "point": [
                                         0.73685734213752929, 
@@ -13147,7 +13147,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "6482f509-a588-4383-a715-d82b628f2f3f", 
+                                "guid": "acbb6333-91a3-4449-856a-f50309937269", 
                                 "value": {
                                     "point": [
                                         0.68850187751534964, 
@@ -13341,7 +13341,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "efae6184-3d8a-41d9-9988-10570d47c6ae", 
+                                "guid": "52a54d25-ce39-432b-8298-39b68de3770b", 
                                 "value": {
                                     "point": [
                                         0.73288035608485047, 
@@ -13535,7 +13535,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "9c80cb72-931e-430d-a465-633bd1bb8649", 
+                                "guid": "d7a3a9fa-3b76-44b8-8c4f-3c485df167d5", 
                                 "value": {
                                     "point": [
                                         0.72633201954023896, 
@@ -13729,7 +13729,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "4a63bdec-b953-40f6-a2d3-df2bc59469e5", 
+                                "guid": "0fcca320-a236-458d-86ea-39c7dfe6c906", 
                                 "value": {
                                     "point": [
                                         0.69985775712649534, 
@@ -13923,7 +13923,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "e177684c-a621-4f41-85a2-6596340efab5", 
+                                "guid": "d58d2678-c061-4848-a106-65a88a768a01", 
                                 "value": {
                                     "point": [
                                         0.71737842917670225, 
@@ -14117,7 +14117,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "26461d10-4fb4-4db6-bdc5-883473b0d746", 
+                                "guid": "1b9102e1-a0b2-43ea-a650-6bb5cc1d2f2b", 
                                 "value": {
                                     "point": [
                                         0.70624887510314827, 
@@ -14311,7 +14311,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "2da57365-bd39-48f4-8581-a176271cd053", 
+                                "guid": "2c1a760d-e78d-4628-bd1c-db1b982e5006", 
                                 "value": {
                                     "point": [
                                         0.69319853206862569, 
@@ -14505,7 +14505,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "8a7e852d-7f71-4226-99d1-acc77a73f86e", 
+                                "guid": "38be4fa4-f60c-4afa-adea-68d46e25c810", 
                                 "value": {
                                     "point": [
                                         0.67847999246091661, 
@@ -14699,7 +14699,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "af5ae892-ef41-4ef6-8f43-013b2c2474c9", 
+                                "guid": "036a1df6-0bbf-4f0d-92e3-93b4b25d6c28", 
                                 "value": {
                                     "point": [
                                         0.73708591062651585, 
@@ -14893,7 +14893,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "4fa5ca08-7ff0-46b9-aae0-87c408695aed", 
+                                "guid": "4e273c20-85db-40ee-ac27-4781f2ba10df", 
                                 "value": {
                                     "point": [
                                         0.73792202300636167, 
@@ -15087,7 +15087,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "b2b3ee2b-e704-4d75-ada1-f204a8355419", 
+                                "guid": "2e7f061c-9080-4902-b6fe-fa186db1127f", 
                                 "value": {
                                     "point": [
                                         0.73716837997207896, 
@@ -15281,7 +15281,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "2f6a66a0-4c08-4aac-8bbf-1781c3dfe146", 
+                                "guid": "7b528ab2-c7fa-4f4d-a122-832a3ee0c8ed", 
                                 "value": {
                                     "point": [
                                         0.73477014936086416, 
@@ -15595,7 +15595,7 @@
                             }, 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "48ccc018-3ee2-4a67-931e-1b1a481c3bce", 
+                                "guid": "8dab3779-b7d8-4ab3-9fa0-16402c26dc60", 
                                 "value": {
                                     "point": [
                                         0.68377816370521605, 
@@ -15789,7 +15789,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "9e4a214d-25d8-4075-ba22-889bd186de0d", 
+                                "guid": "7a9f4663-0cec-4632-848d-47c9c042170a", 
                                 "value": {
                                     "point": [
                                         0.73073610724867821, 
@@ -15983,7 +15983,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "e83044d6-48f7-4925-94b9-8a076d2f2034", 
+                                "guid": "376e230b-b87c-4105-8924-ced4ffcb80a1", 
                                 "value": {
                                     "point": [
                                         0.69072159867234406, 
@@ -16177,7 +16177,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "b5e60ae5-8f50-48b7-9830-281994db382d", 
+                                "guid": "87ad40e1-8b5c-41d4-8993-bc4411c0fde4", 
                                 "value": {
                                     "point": [
                                         0.7251314896419333, 
@@ -16371,7 +16371,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "789828fa-6b14-48f3-9303-cb5370c6cfcc", 
+                                "guid": "d0f28317-7b76-4471-8735-6e2f8c30845e", 
                                 "value": {
                                     "point": [
                                         0.718063246072151, 
@@ -16565,7 +16565,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "9d5d45f4-d890-48d0-8a37-17fc7b55511f", 
+                                "guid": "8287528f-81a8-4fb5-b362-92a6e6c392ce", 
                                 "value": {
                                     "point": [
                                         0.70966271732751252, 
@@ -16759,7 +16759,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "d11ea0e0-8716-41c8-9ec6-9589aabf7937", 
+                                "guid": "6768eabc-5a93-4ba5-b65a-5616532a934e", 
                                 "value": {
                                     "point": [
                                         0.70007012346328956, 
@@ -16953,7 +16953,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "9ebf3f27-739f-48b1-94d2-0f7f68709e4f", 
+                                "guid": "d98a261a-6741-4665-bb57-5cea0b004ce9", 
                                 "value": {
                                     "point": [
                                         0.6894231665207694, 
@@ -17147,7 +17147,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "cf41ccf4-22c2-4900-a5a3-f50082147d9d", 
+                                "guid": "ee64670c-fc3e-4b02-a0b4-e725fd86f98f", 
                                 "value": {
                                     "point": [
                                         0.67785003192577231, 
@@ -17341,7 +17341,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "69de62b3-bc86-4382-8053-0b7fb5a35a10", 
+                                "guid": "4a1217a6-562f-441a-8aa1-16e7a3ab1b5f", 
                                 "value": {
                                     "point": [
                                         0.73597496285420716, 
@@ -17535,7 +17535,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "7c668810-5a6e-4385-a9e9-b142f32f5875", 
+                                "guid": "86f56963-6caf-45e1-b26a-9be82643f64d", 
                                 "value": {
                                     "point": [
                                         0.73885290523861458, 
@@ -17729,7 +17729,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "5f410040-dc5a-4583-bd87-982cb578e858", 
+                                "guid": "8a66870e-9e39-48b9-989f-763e58685219", 
                                 "value": {
                                     "point": [
                                         0.73769164920308683, 
@@ -17923,7 +17923,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "d9dbac86-8e39-4229-bdee-00bc08c1c191", 
+                                "guid": "c66a572b-aaae-40ec-87b0-94c1ed640dda", 
                                 "value": {
                                     "point": [
                                         0.68152374099462354, 
@@ -18117,7 +18117,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "b161e48c-da3e-4879-b49b-d2b9a00254a1", 
+                                "guid": "bfd2ec89-16e9-4fca-8425-bc00c1e99176", 
                                 "value": {
                                     "point": [
                                         0.6842545579774213, 
@@ -18311,7 +18311,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "2abaf2e9-5bc4-4f19-867f-f4d0d77ad10e", 
+                                "guid": "97e1fdee-9fb6-426c-99dd-3cbfef08e6d2", 
                                 "value": {
                                     "point": [
                                         0.73232408038976704, 
@@ -18505,7 +18505,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "090549f8-00cc-4dcb-bb73-ae41133829b0", 
+                                "guid": "3952f540-0db4-4b91-a5c0-9418c7fd942c", 
                                 "value": {
                                     "point": [
                                         0.72302639895413257, 
@@ -18699,7 +18699,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "18d7f458-1643-432b-944f-adf21e999587", 
+                                "guid": "01c0c8f0-65f7-493b-a56d-3622db16153a", 
                                 "value": {
                                     "point": [
                                         0.71034431744405535, 
@@ -18893,7 +18893,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "16c2d978-9538-4f57-9023-fbbf2e09dfbc", 
+                                "guid": "11d06b3f-7a90-4944-9273-cbf455c246a9", 
                                 "value": {
                                     "point": [
                                         0.69489054610287393, 
@@ -19087,7 +19087,7 @@
                             "name": "Part", 
                             "place_frame": {
                                 "dtype": "compas.geometry/Frame", 
-                                "guid": "568ce081-9aca-43c8-bf66-24450ca35642", 
+                                "guid": "eda74966-361d-49c4-b52a-60fe705c436a", 
                                 "value": {
                                     "point": [
                                         0.6772200713906279, 

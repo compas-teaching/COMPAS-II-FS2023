@@ -50,13 +50,14 @@ if __name__ == "__main__":
     #set speed
     speed = 300
 
-    assembly = Assembly.from_json("lecture_07/assembly_solved.json")
+    assembly = Assembly.from_json("lecture_07/assembly_solved_jk.json")
     print (len(list(assembly.parts())))
-
+    i=0
     for part in assembly.parts():
         
-        top_course = assembly.attributes["courses"]
-        sequence = get_assembly_sequence(assembly, top_course)
+        # top_course = assembly.attributes["courses"]
+        # 
+        # sequence = get_assembly_sequence(assembly, top_course)
   
         if abb and abb.ros.is_connected:
 
@@ -76,16 +77,21 @@ if __name__ == "__main__":
 
             speed = speed or 500
             send_trajectory(abb, speed, pick_trajectory.points)
-            # abb.send(rrc.SetDigital(io_signal, 1))
-            # abb.send(rrc.WaitTime(1))
+            abb.send(rrc.SetDigital(io_signal, 1))
+            abb.send(rrc.WaitTime(1))
             send_trajectory(abb, speed, list(reversed(pick_trajectory.points)), last_point_fine=True)
             send_trajectory(abb, speed, move_trajectory.points, last_point_fine=False)
             send_trajectory(abb, speed, place_trajectory.points)
-            # abb.send(rrc.SetDigital(io_signal, 0))
-            # abb.send(rrc.WaitTime(1))
+            abb.send(rrc.SetDigital(io_signal, 0))
+            abb.send(rrc.WaitTime(1))
             send_trajectory(abb, speed, list(reversed(place_trajectory.points)), last_point_fine=False)
             send_trajectory(abb, speed, list(reversed(move_trajectory.points)))
 
-            print ("yeet")
+        # i +=1
+        # if i >= 10:
+        #     print("Only testing, stop here")
+        #     break
+        
+        print ("yeet")
 
     
