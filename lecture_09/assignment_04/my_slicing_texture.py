@@ -6,12 +6,12 @@ from compas.geometry import scale_vector, add_vectors
 def create_overhang_texture(slicer, overhang_distance):
     print("Creating overhang texture")
     for i , layer in enumerate(slicer.layers):
-        if i%5 == 0 and i>0:
+        if i%3 == 0 and i>0:
             for j, path in enumerate(layer.paths):
                 new_path = []
                 for k, pt in enumerate(path.points):
 
-                    if k%2 == 0:
+                    if k%6 == 0 or k%6==2:
                         
                         normal = get_normal_of_path_on_xy_plane(k, pt, path, mesh=None)
                         normal_scaled = scale_vector(normal, -overhang_distance)
