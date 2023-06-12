@@ -9,7 +9,7 @@ def create_overhang_texture(slicer, overhang_distance):
     print("Creating cool texture")
 
     for i, layer in enumerate(slicer.layers):
-        if i % 5 == 0 and i > 0:
+        if i % 4 == 0 and i > 0:
             # for every 5th layer, except for the first layer
             # print(layer)
             for j, path in enumerate(layer.paths):
@@ -18,7 +18,7 @@ def create_overhang_texture(slicer, overhang_distance):
                 new_path = []
                 for k, pt in enumerate(path.points):
                     # for every second point (only even points)
-                    if k % 2 == 0:
+                    if k % 3 == 0:
                         # get the normal of the point in relation to the mesh
                         normal = get_normal_of_path_on_xy_plane(k, pt, path, mesh=None)
                         # scale the vector by a number to move the point
